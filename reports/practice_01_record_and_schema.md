@@ -39,17 +39,20 @@ The schema fields are represented in `specs/dataset_schema.json`. The file is up
 | target name | string | yes |
 | target sequence | string | yes |
 | reporter probe sequence | string | optional |
-| adapter 1_sequence | string | optional |
-| adapter 2_sequence | string | optional |
+| adapter 1 sequence | string | optional |
+| adapter 2 sequence | string | optional |
 | measurement type | categorical | yes |
 | measurement unit | categorical | optional |
 | temperature c | float | optional |
+| m-arm length nt | integer | optional |
+| f-arm length nt| integer| optional |
+| signal to background ratio | float | optional |
 | Gibbs energy | floating | yes|
 | buffer | string | optional |
 | pH | float | optional |
 | method | categorical | optional |
 | fluorophore | string | optional |
 | quencher | string | optional |
-| mgcl2_mM | float | optional |
+| MgCl2 mM | float | optional |
 | source | string / DOI / URL | yes |
 | notes | string | optional |
