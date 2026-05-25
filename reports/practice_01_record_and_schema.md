@@ -43,11 +43,12 @@ The schema fields are represented in `specs/dataset_schema.json`. The file is up
 | adapter 2 sequence | string | optional |
 | measurement type | categorical | yes |
 | measurement unit | categorical | optional |
+| measurement_value | float | optional |
 | temperature c | float | optional |
 | m-arm length nt | integer | optional |
 | f-arm length nt| integer| optional |
 | signal to background ratio | float | optional |
-| Gibbs energy | floating | yes|
+| Gibbs energy | float | optional |
 | buffer | string | optional |
 | pH | float | optional |
 | method | categorical | optional |
