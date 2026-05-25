@@ -1,135 +1,167 @@
 {
   "schema_version": "0.1.0",
-  "dataset_title": "Aptamer–protein binding dataset",
+  "dataset_title": "DNA-based sensors for nucleic acid detection dataset",
   "fields": [
     {
-      "name": "record_id",
+      "name": "sensor_architecture",
       "type": "string",
       "required": true,
-      "description": "Stable unique identifier for one binding measurement record.",
-      "example": "rec_apt_thrombin_2018_pdf_001"
-    },
-    {
-      "name": "aptamer_sequence",
-      "type": "string",
-      "required": true,
-      "description": "Nucleotide sequence of the aptamer (DNA or RNA), 5' to 3'.",
-      "example": "GGTTGGTGTGGTTGG",
-      "normalization_rule": "Uppercase; remove spaces and hyphens; keep only A,C,G,T,U."
+      "description": "Architecture of the DNA-based sensor",
+      "example": "X_probe"
     },
     {
       "name": "target_name",
       "type": "string",
       "required": true,
-      "description": "Name of the protein or biomolecular target.",
-      "example": "Thrombin"
+      "description": "Name or label of the nucleic-acid target",
+      "example": "16S RNA"
     },
     {
-      "name": "target_type",
+      "name": "target_sequence",
+      "type": "string",
+      "required": true,
+      "description": "Sequence of the matched target analyte. If the source reports RNA, store U instead of T",
+      "example": "ACGTTGCA"
+    },
+    {
+      "name": "reporter_probe_sequence",
       "type": "string",
       "required": false,
-      "description": "Broad classification of the target (e.g. enzyme, receptor, toxin).",
-      "example": "serine protease"
+      "description": "Sequence of the reporter probe, molecular beacon, or universal molecular beacon if reported",
+      "example": "CGCGTTAACATACAATAGATCGCG"
+    },
+    {
+      "name": "adapter_1_sequence",
+      "type": "string",
+      "required": false,
+      "description": "Sequence of the first adapter strand, for example f-strand, O strand, or analogous component",
+      "example": "ACGT"
+    },
+    {
+      "name": "adapter_2_sequence",
+      "type": "string",
+      "required": false,
+      "description": "Sequence of the second adapter strand, for example m-strand, C strand, or analogous component",
+      "example": "TGCA"
+    },
+    {
+      "name": "m_arm_length_nt",
+      "type": "integer",
+      "required": false,
+      "description": "Length of the short mismatch-sensitive m-arm target-binding region in nucleotides",
+      "example": 7
+    },
+    {
+      "name": "f_arm_length_nt",
+      "type": "integer",
+      "required": false,
+      "description": "Length of the longer f-arm target-binding region in nucleotides",
+      "example": 21
     },
     {
       "name": "measurement_type",
       "type": "string",
       "required": true,
-      "description": "Reported affinity or binding metric (Kd, Ki, IC50, etc.).",
-      "example": "Kd"
+      "description": "Type of experimentally reported quantitative performance measurement",
+      "example": "signal_to_background_ratio"
     },
     {
       "name": "measurement_value",
       "type": "number",
-      "required": false,
-      "description": "Numeric value as reported in the source.",
-      "example": 0.5
+      "required": true,
+      "description": "Numerical value of the reported measurement. For ranges, store the main value if reported and describe the range in notes",
+      "example": 5.5
     },
     {
       "name": "measurement_unit",
       "type": "string",
       "required": false,
-      "description": "Unit of measurement_value (nM, μM, pM, etc.).",
-      "example": "nM",
-      "normalization_rule": "Map synonyms to nM, μM, pM, M; store original in notes if converted."
-    },
-    {
-      "name": "normalized_value_nm",
-      "type": "number",
-      "required": false,
-      "description": "Binding affinity converted to nanomolar (nM) for comparison.",
-      "example": 0.5,
-      "normalization_rule": "Convert measurement_value using measurement_unit to nM."
-    },
-    {
-      "name": "assay_method",
-      "type": "string",
-      "required": false,
-      "description": "Experimental method used to obtain the measurement.",
-      "example": "surface plasmon resonance"
-    },
-    {
-      "name": "buffer",
-      "type": "string",
-      "required": false,
-      "description": "Buffer composition during the binding assay.",
-      "example": "PBS with 5 mM MgCl2"
+      "description": "Original unit of the reported measurement",
+      "example": "nM"
     },
     {
       "name": "temperature_c",
       "type": "number",
       "required": false,
-      "description": "Assay temperature in degrees Celsius.",
-      "example": 25
+      "description": "Assay temperature in degrees Celsius when a single temperature is reported",
+      "example": 22
     },
     {
-      "name": "source_id",
-      "type": "string",
-      "required": true,
-      "description": "Identifier linking to an entry in specs/source_map.json.",
-      "example": "paper_green_2018"
+      "name": "signal_to_background_ratio",
+      "type": "number",
+      "required": false,
+      "description": "Signal-to-background ratio reported for the sensor response",
+      "example": 8.2
     },
     {
-      "name": "source_type",
+      "name": "gibbs_energy",
+      "type": "number",
+      "required": false,
+      "description": "Predicted or reported Gibbs free energy for relevant probe-target hybridization, in kcal/mol. This is optional because many experimental papers report sensor performance without ΔG",
+      "example": -12.4
+    },
+    {
+      "name": "gibbs_energy_source",
       "type": "string",
       "required": false,
-      "description": "Category of source (paper, database, web page, etc.).",
-      "example": "scientific_paper"
+      "description": "Whether Gibbs energy was extracted from the source or calculated during curation",
+      "example": "calculated"
+    },
+    {
+      "name": "buffer",
+      "type": "string",
+      "required": false,
+      "description": "Buffer or assay medium composition",
+      "example": "50 mM MgCl2, 50 mM Tris-HCl"
+    },
+    {
+      "name": "pH",
+      "type": "number",
+      "required": false,
+      "description": "Assay pH",
+      "example": 7.4
+    },
+    {
+      "name": "method",
+      "type": "string",
+      "required": false,
+      "description": "Experimental readout or measurement method",
+      "example": "fluorescence"
+    },
+    {
+      "name": "fluorophore",
+      "type": "string",
+      "required": false,
+      "description": "Fluorophore label used in the reporter probe",
+      "example": "FAM"
+    },
+    {
+      "name": "quencher",
+      "type": "string",
+      "required": false,
+      "description": "Quencher label used in the reporter probe",
+      "example": "BHQ1"
+    },
+    {
+      "name": "MgCl2_mM",
+      "type": "number",
+      "required": false,
+      "description": "MgCl2 concentration in millimolar",
+      "example": 50
     },
     {
       "name": "source_url",
       "type": "string",
       "required": false,
-      "description": "URL or landing page for the source.",
-      "example": "https://doi.org/10.1021/example"
-    },
-    {
-      "name": "doi",
-      "type": "string",
-      "required": false,
-      "description": "Digital Object Identifier when available.",
-      "example": "10.1021/example"
-    },
-    {
-      "name": "extraction_method",
-      "type": "string",
-      "required": false,
-      "description": "How the record was obtained (pdf_manual, pdf_table, web_scrape, etc.).",
-      "example": "pdf_table"
-    },
-    {
-      "name": "extraction_confidence",
-      "type": "string",
-      "required": false,
-      "description": "Confidence in extracted values: high, medium, low, or unknown.",
-      "example": "high"
+      "description": "URL or landing page for the source",
+      "example": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645261/#SD1"
     },
     {
       "name": "notes",
       "type": "string",
       "required": false,
-      "description": "Free-text notes, caveats, or provenance details.",
-      "example": "Value taken from Table 2; unit inferred from caption."
+      "description": "Free-text notes about extraction, ambiguity, assumptions, unit conversion, or special assay conditions.",
+      "example": "LOD measured in the presence of 500 nM mismatched rs87C analyte."
     }
   ]
 }
