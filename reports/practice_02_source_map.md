@@ -32,7 +32,7 @@ All sources are maintained in `specs/source_map.json`
 ### scientific_papers
 
 | source_id | Source | Type | Priority | Expected yield |
-|---|---|---|---:|---|
+|---|---|---|---|---|
 | paper_cornett_2013_oc_sensor | Cornett et al. 2013, PLOS ONE, OC sensor | primary research article | 1 | LOD, SNP selectivity, signal-to-noise, rs87T/rs87C, E. coli 16S rRNA |
 | paper_gerasimova_2013_16s_x_sensor | Gerasimova & Kolpashchikov 2013, Biosensors and Bioelectronics | primary research article | 1 | LOD for E. coli 16S rRNA, X sensor architecture, RNA specificity |
 | paper_nguyen_2011_tricomponent | Nguyen et al. 2011, Chemistry — A European Journal | primary research article | 1 | tricomponent probe, folded nucleic acids, SNP discrimination, LOD range |
@@ -75,7 +75,7 @@ No ML-ready dataset directly matching this topic was found. ML datasets or probe
 
 | source_id | Access status | Access method | Notes |
 |---|---|---|---|---|
-| paper_cornett_2013_oc_sensor | open_access | publisher HTML / PDF | |
+| paper_cornett_2013_oc_sensor | open_access | publisher HTML / PDF | - |
 | paper_gerasimova_2013_16s_x_sensor | abstract_open / full text may require publisher or repository access | PubMed, ScienceDirect, PMC/institutional access if available | Use abstract for metadata; full extraction requires PDF |
 | paper_nguyen_2011_tricomponent | open full text available through PMC / publisher metadata | PMC / Wiley page | Suitable for direct extraction |
 | paper_stancescu_2016_nonequilibrium_x | publisher access / author version / uploaded PDF | ACS / PubMed / institutional PDF | Full extraction from PDF and supplementary information |
@@ -97,6 +97,8 @@ No ML-ready dataset directly matching this topic was found. ML datasets or probe
 | paper_kolpashchikov_2006_binary | article text and figures | PDF | binary probe design, mismatch discrimination, signal response |
 | paper_grimes_2010_realtime_snp | article text and figures | PDF | real-time SNP response, folded nucleic acid target, signal metrics |
 | paper_labib_2013_4j_mirna | article text, figures, electrochemical data | PDF/SI | miRNA target, 4WJ sensor, LOD, linear range, electrochemical method |
+
+## Expected conflicts and overlaps
 
 | Overlap / conflict | Sources | Resolution rule |
 |---|---|---|
