@@ -74,7 +74,7 @@ No ML-ready dataset directly matching this topic was found. ML datasets or probe
 ## Access conditions
 
 | source_id | Access status | Access method | Notes |
-|---|---|---|---|---|
+|---|---|---|---|
 | paper_cornett_2013_oc_sensor | open_access | publisher HTML / PDF | - |
 | paper_gerasimova_2013_16s_x_sensor | abstract_open / full text may require publisher or repository access | PubMed, ScienceDirect, PMC/institutional access if available | Use abstract for metadata; full extraction requires PDF |
 | paper_nguyen_2011_tricomponent | open full text available through PMC / publisher metadata | PMC / Wiley page | Suitable for direct extraction |
