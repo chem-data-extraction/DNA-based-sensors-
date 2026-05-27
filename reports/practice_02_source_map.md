@@ -104,7 +104,6 @@ No ML-ready dataset directly matching this topic was found. ML datasets or probe
 
 | Overlap / conflict | Sources | Resolution rule |
 |---|---|---|
-
 | Same DNAzyme appears in DNAmoreDB and a primary paper | Use the primary paper for sensor-performance values; use DNAmoreDB for catalytic metadata, reaction type, cofactors, and publication links |
 | Main text and supplementary file report the same value | Prefer supplementary tables for exact values; use main text for interpretation |
 | Review article reports a value from a primary paper | Use the primary paper whenever available; reviews are source-discovery/context only |
