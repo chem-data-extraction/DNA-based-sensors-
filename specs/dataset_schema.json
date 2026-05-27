@@ -3,11 +3,39 @@
   "dataset_title": "DNA-based sensors for nucleic acid detection dataset",
   "fields": [
     {
+      "name": "record_id",
+      "type": "string",
+      "required": true,
+      "description": "Stable unique identifier for one quantitative measurement record",
+      "example": "rec_000001"
+    },
+    {
+      "name": "source_id",
+      "type": "string",
+      "required": true,
+      "description": "Identifier linking the record to an entry in specs/source_map.json",
+      "example": "paper_ateiah_dnm"
+    },
+    {
       "name": "sensor_architecture",
       "type": "string",
       "required": true,
       "description": "Architecture of the DNA-based sensor",
       "example": "X_probe"
+    },
+    {
+      "name": "dnazyme_name",
+      "type": "string",
+      "required": false,
+      "description": "DNAzyme name as reported in the source or database",
+      "example": "10-23 DNAzyme"
+    },
+    {
+      "name": "full_sensor_sequence",
+      "type": "string",
+      "required": false,
+      "description": "Complete DNAzyme sensor sequence or construct sequence if reported",
+      "example": "ACTGCAGT"
     },
     {
       "name": "target_name",
@@ -21,49 +49,28 @@
       "type": "string",
       "required": true,
       "description": "Sequence of the matched target analyte. If the source reports RNA, store U instead of T",
-      "example": "ACGTTGCA"
+      "example": "ACGATTGCAGAGTATGCATATGCA"
     },
     {
-      "name": "reporter_probe_sequence",
+      "name": "reaction_type",
       "type": "string",
       "required": false,
-      "description": "Sequence of the reporter probe, molecular beacon, or universal molecular beacon if reported",
-      "example": "CGCGTTAACATACAATAGATCGCG"
+      "description": "DNAzyme reaction",
+      "example": "RNA_cleavage"
     },
     {
-      "name": "adapter_1_sequence",
+      "name": "detection_method",
       "type": "string",
-      "required": false,
-      "description": "Sequence of the first adapter strand, for example f-strand, O strand, or analogous component",
-      "example": "ACGT"
-    },
-    {
-      "name": "adapter_2_sequence",
-      "type": "string",
-      "required": false,
-      "description": "Sequence of the second adapter strand, for example m-strand, C strand, or analogous component",
-      "example": "TGCA"
-    },
-    {
-      "name": "m_arm_length_nt",
-      "type": "integer",
-      "required": false,
-      "description": "Length of the short mismatch-sensitive m-arm target-binding region in nucleotides",
-      "example": 7
-    },
-    {
-      "name": "f_arm_length_nt",
-      "type": "integer",
-      "required": false,
-      "description": "Length of the longer f-arm target-binding region in nucleotides",
-      "example": 21
+      "required": true,
+      "description": "Detection method",
+      "example": "fluorescence"
     },
     {
       "name": "measurement_type",
       "type": "string",
       "required": true,
       "description": "Type of experimentally reported quantitative performance measurement",
-      "example": "signal_to_background_ratio"
+      "example": "LOD"
     },
     {
       "name": "measurement_value",
@@ -78,13 +85,13 @@
       "required": false,
       "description": "Original unit of the reported measurement",
       "example": "nM"
-    },
+    },    
     {
-      "name": "temperature_c",
+      "name": "lod_nM",
       "type": "number",
       "required": false,
-      "description": "Assay temperature in degrees Celsius when a single temperature is reported",
-      "example": 22
+      "description": "LOD converted to nM when measurement_type is LOD",
+      "example": 0.0003
     },
     {
       "name": "signal_to_background_ratio",
@@ -92,6 +99,13 @@
       "required": false,
       "description": "Signal-to-background ratio reported for the sensor response",
       "example": 8.2
+    },
+    {
+      "name": "temperature_c",
+      "type": "number",
+      "required": false,
+      "description": "Assay temperature in degrees Celsius when a single temperature is reported",
+      "example": 22
     },
     {
       "name": "gibbs_energy",
@@ -122,12 +136,19 @@
       "example": 7.4
     },
     {
-      "name": "method",
-      "type": "string",
+      "name": "Mg_mM",
+      "type": "number",
       "required": false,
-      "description": "Experimental readout or measurement method",
-      "example": "fluorescence"
+      "description": "Mg2+ concentration in millimolar",
+      "example": 50
     },
+    {
+      "name": "Na_mM",
+      "type": "number",
+      "required": false,
+      "description": "Na+ concentration in millimolar",
+      "example": 50
+    },    
     {
       "name": "fluorophore",
       "type": "string",
@@ -143,11 +164,11 @@
       "example": "BHQ1"
     },
     {
-      "name": "MgCl2_mM",
-      "type": "number",
+      "name": "method",
+      "type": "string",
       "required": false,
-      "description": "MgCl2 concentration in millimolar",
-      "example": 50
+      "description": "Experimental readout or measurement method",
+      "example": "fluorescence"
     },
     {
       "name": "source_url",
@@ -155,6 +176,13 @@
       "required": false,
       "description": "URL or landing page for the source",
       "example": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645261/#SD1"
+    },
+    {
+      "name": "source_location",
+      "type": "string",
+      "required": false,
+      "description": "Exact location of the value in the source",
+      "example": "Table 1"
     },
     {
       "name": "notes",
