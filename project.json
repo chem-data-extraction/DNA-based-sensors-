@@ -2,12 +2,13 @@
   "project_id": "dna_based_sensors",
   "project_title": "DNA-based sensors for nucleic acid detection dataset",
   "project_status": "in_progress",
-  "scientific_task": "Collect experimentally reported quantitative performance measurements of DNA-based sensors for nucleic-acid target detection and SNP/SNV discrimination.",
+  "scientific_task": "Collect experimentally reported quantitative measurements and structured metadata for DNAzyme-based nucleic-acid sensors.",
   "record_definition": {
-    "one_record": "one experimentally reported quantitative performance measurement for one DNA-based sensor design tested against one nucleic-acid target or target variant under one defined assay condition from one source"
+    "one_record": "one experimentally reported quantitative measurement for one DNAzyme-based nucleic-acid sensing system or DNAzyme catalytic component under one defined assay condition from one specific source"
   },
   "main_entities": [
     "dna_sensor",
+    "dnazyme_sensor",
     "recognition_element",
     "sensor_design",
     "target_nucleic_acid",
