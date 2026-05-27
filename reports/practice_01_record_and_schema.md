@@ -6,17 +6,17 @@ DNA-based sensors for nucleic acid detection dataset.
 
 ## Scientific task
 
-Collect  experimentally reported quantitative performance measurements of DNA-based sensors for nucleic-acid target detection and SNP/SNV discrimination.
+Collect experimentally reported quantitative measurements and structured metadata for DNAzyme-based nucleic-acid sensors.
 
 ## One-record definition
 
-**One record** = one experimentally reported quantitative performance measurement for one DNA-based sensor design tested against one nucleic-acid target or target variant under one defined assay condition from one source (one row in `data/processed/dataset.csv`).
+**One record** = one experimentally reported quantitative measurement for one DNAzyme-based nucleic-acid sensing system or DNAzyme catalytic component under one defined assay condition from one specific source (one row in `data/processed/dataset.csv`).
 
 ## Examples of records
 
 | Example | Why it counts |
 |---------|----------------|
-| LOD `≈ 5.5 nM` for the OC sensor detecting the matched `rs87T` DNA analyte in Cornett et al. 2013 | One numerical detection-limit value for one sensor and one matched target sequence |
+| LOD `≈ 0.3 pM` for detection of E. coli 16S RNA using a multi-DNAzyme “deoxyribozymes-on-a-string” design. | One quantitative LOD measurement for one DNAzyme-based RNA detection system. |
 | Molecular-beacon-based X sensor detecting *E. coli* 16S rRNA with LOD `~0.17 nM` | One experimentally reported detection-limit measurement for an RNA target |
 
 ## Non-record examples
@@ -35,25 +35,30 @@ The schema fields are represented in `specs/dataset_schema.json`. The file is up
 
 | Field | Type | Required? |
 |---|---|---|
-| sensor architecture | string | yes |
+| record id | string | yes |
+| source id | string | yes |
+| record level | categorical | yes |
+| sensor architecture | categorical | yes |
+| dnazyme name | string | optional |
+| dnazyme core type | categorical | optional |
+| full sensor sequence | string | optional |
 | target name | string | yes |
-| target sequence | string | yes |
-| reporter probe sequence | string | optional |
-| adapter 1 sequence | string | optional |
-| adapter 2 sequence | string | optional |
+| target sequence | string | optional |
+| reaction type | categorical | optional |
+| detection method | categorical | yes |
 | measurement type | categorical | yes |
-| measurement unit | categorical | optional |
-| measurement_value | float | optional |
-| temperature c | float | optional |
-| m-arm length nt | integer | optional |
-| f-arm length nt| integer| optional |
+| measurement value | float | yes |
+| measurement unit |string | yes |
+| lod nM | float | optional |
 | signal to background ratio | float | optional |
+| temperature c | float | optional |
 | Gibbs energy | float | optional |
 | buffer | string | optional |
 | pH | float | optional |
-| method | categorical | optional |
+| Mg mM | float | optional |
+| Na mM | float | optional |
 | fluorophore | string | optional |
 | quencher | string | optional |
-| MgCl2 mM | float | optional |
+| source location | string | optional |
 | source | string / DOI / URL | yes |
 | notes | string | optional |
