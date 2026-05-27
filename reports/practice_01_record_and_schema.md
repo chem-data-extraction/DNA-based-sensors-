@@ -37,10 +37,8 @@ The schema fields are represented in `specs/dataset_schema.json`. The file is up
 |---|---|---|
 | record id | string | yes |
 | source id | string | yes |
-| record level | categorical | yes |
 | sensor architecture | categorical | yes |
 | dnazyme name | string | optional |
-| dnazyme core type | categorical | optional |
 | full sensor sequence | string | optional |
 | target name | string | yes |
 | target sequence | string | optional |
@@ -59,6 +57,6 @@ The schema fields are represented in `specs/dataset_schema.json`. The file is up
 | Na mM | float | optional |
 | fluorophore | string | optional |
 | quencher | string | optional |
-| source location | string | optional |
 | source | string / DOI / URL | yes |
+| source location | string | optional |
 | notes | string | optional |
