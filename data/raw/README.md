@@ -16,3 +16,15 @@ Store **unaltered** source files here. Do not edit files in this folder after do
 - Extracted record CSVs (use `data/extracted/`)
 
 Document each file’s `source_id`, download date, and license in your source map and practice reports.
+
+# Raw PDF files
+
+Put the original, unmodified PDFs here before running `scripts/extract_pdf.py`.
+
+Expected filenames for the current Practice 3 manifest:
+
+- `nihms534513.pdf` — Gerasimova et al. 2013, Deoxyribozyme cascade for visual detection of bacterial RNA
+- `nihms912297.pdf` — Cox et al. 2016, Multifunctional molecular DNA machine for RNA detection
+- `ijms-26-03652.pdf` — Solyanikova et al. 2025, Multicomponent DNA Nanomachines for Amplification-Free Viral RNA Detection
+
+Do not edit raw PDFs after download/upload. If a file changes, save a new version with a clear filename and update `specs/pdf_extraction_manifest.json`.
