@@ -6,8 +6,17 @@ This folder holds the **publication-ready** dataset: one row per record, columns
 
 - `dataset.csv` — final dataset produced by `scripts/build_dataset.py` and `scripts/clean_dataset.py`, validated with `scripts/validate_project.py`
 
-## Guidelines
+This file combines:
 
-- Regenerate this file from scripts; avoid hand-editing except for small template fixes during setup.
-- Before submission, replace example rows with your project records.
-- Record the dataset version or commit hash in `reports/final_report.md` and `dataset_card.md`.
+manually verified PDF records from data/extracted/pdf_extracted_records.csv;
+selected web records from data/extracted/web_extracted_records.csv
+
+The current dataset contains both sensor-performance records and selected DNAmoreDB metadata records
+
+### Additional analysis file
+
+`dataset_lod_only.csv` — LOD-only subset produced by `scripts/clean_dataset.py`
+
+This file contains only records where: measurement_type = LOD
+
+LOD values reported in mass units such as ng/uL are preserved as reported and are not converted to nM, because conversion would require assumptions about RNA composition and molecular weight
