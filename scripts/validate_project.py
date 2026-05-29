@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate repository artifacts against specs/validation_rules.json."""
+"""Validate project artifacts and final dataset"""
 
 from __future__ import annotations
 
@@ -25,7 +25,6 @@ REQUIRED_FILES = [
     "scripts/build_dataset.py",
     "scripts/clean_dataset.py",
 ]
-
 CONFIDENCE_ALLOWED = {"", "high", "medium", "low", "unknown"}
 
 
@@ -40,26 +39,25 @@ def schema_field_names(schema: dict) -> list[str]:
 
 def source_ids_from_map(source_map: dict) -> set[str]:
     ids: set[str] = set()
-    for group_sources in source_map.get("source_groups", {}).values():
-        for entry in group_sources:
-            sid = entry.get("source_id")
-            if sid:
-                ids.add(sid)
+    groups = source_map.get("source_groups", {})
+    if isinstance(groups, dict):
+        for group_sources in groups.values():
+            if isinstance(group_sources, list):
+                for entry in group_sources:
+                    sid = entry.get("source_id") if isinstance(entry, dict) else None
+                    if sid:
+                        ids.add(str(sid))
     return ids
 
 
 def check_required_files(root: Path = ROOT) -> list[str]:
-    issues = []
-    for rel in REQUIRED_FILES:
-        if not (root / rel).is_file():
-            issues.append(f"Missing required file: {rel}")
-    return issues
+    return [f"Missing required file: {rel}" for rel in REQUIRED_FILES if not (root / rel).is_file()]
 
 
 def check_json_parseable(root: Path = ROOT) -> list[str]:
     issues = []
     for path in root.rglob("*.json"):
-        if ".pytest_cache" in path.parts or "venv" in path.parts:
+        if any(skip in path.parts for skip in (".pytest_cache", ".venv", "venv")):
             continue
         try:
             load_json(path)
@@ -68,104 +66,72 @@ def check_json_parseable(root: Path = ROOT) -> list[str]:
     return issues
 
 
-def load_dataset(root: Path = ROOT) -> pd.DataFrame:
-    path = root / "data/processed/dataset.csv"
-    return pd.read_csv(path)
-
-
-def check_dataset_columns(df: pd.DataFrame, schema: dict) -> list[str]:
-    expected = schema_field_names(schema)
-    actual = list(df.columns)
+def check_numeric_or_blank(df: pd.DataFrame, col: str) -> list[str]:
     issues = []
-    if actual != expected:
-        issues.append(
-            f"Dataset columns do not match schema. Expected {expected}, got {actual}"
-        )
-    return issues
-
-
-def check_record_id(df: pd.DataFrame) -> list[str]:
-    issues = []
-    if df["record_id"].isna().any() or (df["record_id"].astype(str).str.strip() == "").any():
-        issues.append("record_id contains null or empty values")
-    if df["record_id"].duplicated().any():
-        dupes = df.loc[df["record_id"].duplicated(), "record_id"].tolist()
-        issues.append(f"Duplicate record_id values: {dupes}")
-    return issues
-
-
-def check_source_id(df: pd.DataFrame, source_map: dict) -> tuple[list[str], list[str]]:
-    errors: list[str] = []
-    warnings: list[str] = []
-    valid_ids = source_ids_from_map(source_map)
-
-    if df["source_id"].isna().any() or (df["source_id"].astype(str).str.strip() == "").any():
-        errors.append("source_id contains null or empty values")
-
-    unknown = set(df["source_id"].dropna().astype(str)) - valid_ids
-    if unknown:
-        warnings.append(f"source_id not in source map (warning): {sorted(unknown)}")
-    return errors, warnings
-
-
-def check_measurement_value(df: pd.DataFrame) -> list[str]:
-    issues = []
-    col = df["measurement_value"]
-    for idx, val in col.items():
-        if pd.isna(val) or val == "":
+    if col not in df.columns:
+        return issues
+    for idx, val in df[col].items():
+        if pd.isna(val) or str(val).strip() == "":
             continue
         try:
             float(val)
         except (TypeError, ValueError):
-            issues.append(f"measurement_value not numeric at row {idx}: {val!r}")
+            issues.append(f"{col} not numeric at row {idx}: {val!r}")
     return issues
 
 
-def check_extraction_confidence(df: pd.DataFrame) -> list[str]:
-    warnings = []
-    if "extraction_confidence" not in df.columns:
-        return warnings
-    for val in df["extraction_confidence"].fillna("").astype(str):
-        if val.lower() not in CONFIDENCE_ALLOWED and val not in CONFIDENCE_ALLOWED:
-            warnings.append(f"Unexpected extraction_confidence: {val!r}")
-            break
-    return warnings
-
-
 def validate(root: Path = ROOT) -> tuple[list[str], list[str]]:
-    """Return (errors, warnings)."""
     errors: list[str] = []
     warnings: list[str] = []
-
     errors.extend(check_required_files(root))
     errors.extend(check_json_parseable(root))
 
     dataset_path = root / "data/processed/dataset.csv"
-    if not dataset_path.is_file():
+    schema_path = root / "specs/dataset_schema.json"
+    source_map_path = root / "specs/source_map.json"
+    if not dataset_path.is_file() or not schema_path.is_file():
         return errors, warnings
 
-    schema = load_json(root / "specs/dataset_schema.json")
-    source_map = load_json(root / "specs/source_map.json")
-    df = load_dataset(root)
+    schema = load_json(schema_path)
+    expected = schema_field_names(schema)
+    df = pd.read_csv(dataset_path, keep_default_na=False)
 
-    errors.extend(check_dataset_columns(df, schema))
-    errors.extend(check_record_id(df))
-    errors.extend(check_measurement_value(df))
+    if list(df.columns) != expected:
+        errors.append(f"Dataset columns do not match schema. Expected {expected}, got {list(df.columns)}")
 
-    src_errors, src_warnings = check_source_id(df, source_map)
-    errors.extend(src_errors)
-    warnings.extend(src_warnings)
-    warnings.extend(check_extraction_confidence(df))
+    if "record_id" in df.columns:
+        if (df["record_id"].astype(str).str.strip() == "").any():
+            errors.append("record_id contains empty values")
+        if df["record_id"].duplicated().any():
+            errors.append(f"Duplicate record_id values: {df.loc[df['record_id'].duplicated(), 'record_id'].tolist()}")
+
+    if "source_id" in df.columns:
+        if (df["source_id"].astype(str).str.strip() == "").any():
+            errors.append("source_id contains empty values")
+        if source_map_path.is_file():
+            valid_ids = source_ids_from_map(load_json(source_map_path))
+            if valid_ids:
+                unknown = set(df["source_id"].astype(str)) - valid_ids
+                if unknown:
+                    warnings.append(f"source_id not in source map: {sorted(unknown)}")
+
+    for col in ["measurement_value", "normalized_value_nM", "lod_nM"]:
+        errors.extend(check_numeric_or_blank(df, col))
+
+    if "extraction_confidence" in df.columns:
+        unexpected = sorted(set(v for v in df["extraction_confidence"].astype(str).str.lower() if v not in CONFIDENCE_ALLOWED))
+        if unexpected:
+            warnings.append(f"Unexpected extraction_confidence values: {unexpected}")
 
     return errors, warnings
 
 
 def main() -> int:
     errors, warnings = validate()
-    for w in warnings:
-        print(f"WARNING: {w}")
-    for e in errors:
-        print(f"ERROR: {e}")
+    for warning in warnings:
+        print(f"WARNING: {warning}")
+    for error in errors:
+        print(f"ERROR: {error}")
     if errors:
         print(f"\nValidation failed with {len(errors)} error(s).")
         return 1
@@ -176,4 +142,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    sys.exit(main())
+
     sys.exit(main())
