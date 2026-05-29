@@ -1,55 +1,92 @@
 {
-  "web_extraction_version": "0.1.0",
+  "web_extraction_version": "0.5.0",
+  "project_topic": "DNAzyme-based sensors / DNA-based nucleic-acid sensor components",
+  "scripts": {
+    "candidate_extraction": "scripts/extract_web_candidates.py",
+    "record_selection": "scripts/select_web_records.py",
+    "compatibility_wrapper": "scripts/extract_web.py"
+  },
+  "output_candidates_file": "data/extracted/web_extracted_candidates.csv",
   "output_records_file": "data/extracted/web_extracted_records.csv",
-  "script": "scripts/extract_web.py",
+  "raw_snapshot_dir": "data/raw/web",
   "input_pages": [
     {
-      "source_id": "db_aptagen",
-      "page_id": "aptagen_thrombin_entries",
-      "url": "https://example.org/aptamer-db/target/thrombin",
-      "access_date": "2026-02-01",
+      "source_id": "db_dnamoredb",
+      "page_id": "dnamoredb_api_rna_cleavage",
+      "url": "https://www.genesilico.pl/DNAmoreDB/api/dnazymes?reaction=RNA+cleavage",
+      "access_date": "2026-05-29",
       "access_status": "open_access",
-      "robots_notes": "robots.txt allows crawling of /aptamer-db/ with 1 req/s; respect terms of use.",
-      "selection_reason": "Structured HTML tables listing curated thrombin aptamer Kd values.",
-      "page_type": "database_browse_page",
-      "expected_content": "HTML table with columns: sequence, target, Kd, method",
+      "robots_notes": "Educational one-off extraction. Use low request rate and preserve raw snapshots",
+      "selection_reason": "Primary API source for RNA-cleaving DNAzyme candidates relevant to nucleic-acid/bacterial RNA-marker sensing",
+      "page_type": "api_json",
+      "raw_snapshot_path": "data/raw/web/dnamoredb_api_rna_cleavage.json",
       "parser_plan": {
-        "tool": "requests + BeautifulSoup",
-        "selectors": {
-          "table": "table.binding-records",
-          "row": "tbody tr",
-          "sequence": "td.seq",
-          "target": "td.target",
-          "value": "td.kd",
-          "unit": "td.unit"
-        }
+        "tool": "requests + json parser",
+        "filter_rules": [
+          "reaction contains RNA cleavage",
+          "or entry/publication text contains nucleic-acid/bacterial context hints and sensor/detection/readout hints",
+          "extract optional kcat/kobs/kc/yield as candidate metadata"
+        ]
       },
-      "raw_snapshot_path": "data/raw/web/aptagen_thrombin_entries.html",
-      "extraction_status": "template_pending"
+      "extraction_status": "active"
     },
     {
-      "source_id": "db_aptagen",
-      "page_id": "aptagen_lysozyme_entries",
-      "url": "https://example.org/aptamer-db/target/lysozyme",
-      "access_date": "2026-02-02",
+      "source_id": "db_dnamoredb",
+      "page_id": "dnamoredb_browse_rna",
+      "url": "https://www.genesilico.pl/DNAmoreDB/dnazymes?q=RNA",
+      "access_date": "2026-05-29",
       "access_status": "open_access",
-      "robots_notes": "Same policy as thrombin browse page.",
-      "selection_reason": "Complements PDF sources for lysozyme aptamer records.",
+      "robots_notes": "Educational one-off extraction. Use low request rate and preserve raw snapshots",
+      "selection_reason": "HTML browse/search page used as fallback and provenance snapshot for RNA-related DNAzymes",
       "page_type": "database_browse_page",
-      "expected_content": "Paginated result list with affinity fields",
+      "raw_snapshot_path": "data/raw/web/dnamoredb_browse_rna.html",
       "parser_plan": {
         "tool": "requests + BeautifulSoup",
         "selectors": {
-          "table": "table.binding-records",
-          "row": "tbody tr",
-          "sequence": "td.seq",
-          "target": "td.target",
-          "value": "td.kd",
-          "unit": "td.unit"
+          "row": "table tbody tr",
+          "entry_links": "a[href*='/DNAmoreDB/dnazyme/']"
         }
       },
-      "raw_snapshot_path": "data/raw/web/aptagen_lysozyme_entries.html",
-      "extraction_status": "template_pending"
+      "extraction_status": "snapshot_only"
     }
+  ],
+  "selected_entry_pages": [
+    {
+      "source_id": "db_dnamoredb",
+      "page_id": "dnamoredb_entry_10_23",
+      "dnazyme_id": "445",
+      "dnazyme_name": "10-23",
+      "url": "https://www.genesilico.pl/DNAmoreDB/dnazyme/445/",
+      "raw_snapshot_path": "data/raw/web/dnamoredb_entry_10_23.html",
+      "selection_reason": "Expert-selected canonical RNA-cleaving DNAzyme core directly related to 10-23/BiDz/DNM-style nucleic-acid sensor architectures"
+    },
+    {
+      "source_id": "db_dnamoredb",
+      "page_id": "dnamoredb_entry_rfd_ec1",
+      "dnazyme_id": "1974",
+      "dnazyme_name": "RFD-EC1",
+      "url": "https://www.genesilico.pl/DNAmoreDB/dnazyme/1974/",
+      "raw_snapshot_path": "data/raw/web/dnamoredb_entry_rfd_ec1.html",
+      "selection_reason": "Expert-selected fluorogenic RNA-cleaving DNAzyme probe for Escherichia coli detection"
+    },
+  ],
+  "record_fields_extracted_from_site": [
+    "DNAzyme name",
+    "Reaction",
+    "Reacting groups",
+    "Substrates",
+    "Product",
+    "Metal ion / cofactor",
+    "Linkage",
+    "Seq description",
+    "Buffer conditions",
+    "kcat/kobs if present",
+    "Notes",
+    "Catalytic region of the DNAzyme",
+    "Reported-in publication year",
+    "Reported-in publication title",
+    "PubMed ID",
+    "DOI",
+    "Reaction of publication"
   ]
 }
