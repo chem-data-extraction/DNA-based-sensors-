@@ -26,5 +26,21 @@ Expected filenames for the current Practice 3 manifest:
 - `nihms534513.pdf` — Gerasimova et al. 2013, Deoxyribozyme cascade for visual detection of bacterial RNA
 - `nihms912297.pdf` — Cox et al. 2016, Multifunctional molecular DNA machine for RNA detection
 - `ijms-26-03652.pdf` — Solyanikova et al. 2025, Multicomponent DNA Nanomachines for Amplification-Free Viral RNA Detection
+- `NIHMS912297-supplement-SI.docx` — supplementary information for Cox et al. 2016
+- `ijms-26-03652.pdf` — Solyanikova et al. 2025, multicomponent DNA nanomachines for amplification-free viral RNA detection
+- `ijms-3538794-supplementary.pdf` — supplementary information for Solyanikova et al. 2025
 
 Do not edit raw PDFs after download/upload. If a file changes, save a new version with a clear filename and update `specs/pdf_extraction_manifest.json`.
+
+# Raw web files
+
+For the current Practice 4 workflow, raw web files come from DNAmoreDB:
+
+- DNAmoreDB home page
+- DNAmoreDB DNAzyme search/browse pages
+- DNAmoreDB API JSON responses
+- individual DNAmoreDB entry pages for selected records, currently including:
+  - `10-23`
+  - `RFD-EC1`
+
+These files are produced by: `python scripts/extract_web_candidates.py`, `python scripts/select_web_records.py` or by the wrapper: `python scripts/extract_web.py`
