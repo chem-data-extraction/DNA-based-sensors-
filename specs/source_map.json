@@ -16,7 +16,7 @@
         "license": "CC-BY-NC-3.0",
         "expected_data_volume": "high",
         "estimated_records": 30,
-        "available_data_types": ["tables", "text", "figures", "supplementary_information", ],
+        "available_data_types": ["tables", "text", "figures", "supplementary_information"],
         "expected_fields": [
           "source_id",
           "sensor_architecture",
@@ -311,7 +311,7 @@
           "recommended_method": "API extraction for web_extracted_records.csv"
         },
         "notes": "Use for DNAzyme metadata and catalytic descriptors"
-      },
+      }
     ],
     "aggregators": [
       {
@@ -367,9 +367,9 @@
           "recommended_method": "manual citation snowballing only"
         },
         "notes": "Discovery source only"
-      },
+      }
     ],
     "github_repositories": [],
     "ml_datasets": []
+  }
 }
-    "ml_datasets": []
