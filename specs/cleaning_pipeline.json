@@ -1,62 +1,104 @@
 {
   "pipeline_version": "0.1.0",
+  "project": "DNAzyme-based sensors / DNA-based nucleic-acid sensing records",
   "inputs": [
     "data/extracted/pdf_extracted_records.csv",
     "data/extracted/web_extracted_records.csv"
   ],
+  "interim_output": "data/interim/merged_records.csv",
   "output": "data/processed/dataset.csv",
+  "additional_outputs": [
+    "data/processed/dataset_lod_only.csv"
+  ],
   "steps": [
     {
       "step_id": "merge_sources",
-      "operation": "concatenate",
-      "description": "Combine PDF- and web-extracted CSV files into a single interim table.",
-      "input_files": [
-        "data/extracted/pdf_extracted_records.csv",
-        "data/extracted/web_extracted_records.csv"
-      ],
-      "output_file": "data/interim/merged_records.csv"
-    },
-    {
-      "step_id": "normalize_units",
-      "operation": "unit_conversion",
-      "description": "Convert measurement_value to nanomolar (normalized_value_nm) using measurement_unit.",
-      "fields": ["measurement_value", "measurement_unit"],
-      "output_file": "data/interim/merged_records.csv"
-    },
-    {
-      "step_id": "standardize_sequences",
-      "operation": "sequence_cleanup",
-      "description": "Uppercase aptamer sequences and remove whitespace or invalid characters.",
-      "fields": ["aptamer_sequence"],
-      "output_file": "data/interim/merged_records.csv"
+      "operation": "concatenate_and_schema_map",
+      "description": "Load PDF and web extracted CSVs, map heterogeneous source columns into the project dataset schema, and write data/interim/merged_records.csv."
     },
     {
       "step_id": "standardize_missing_values",
       "operation": "missing_value_cleanup",
-      "description": "Map NA, N/A, -, empty strings to null-like values for pandas export.",
-      "fields": ["measurement_value", "buffer", "notes"],
-      "output_file": "data/interim/merged_records.csv"
+      "description": "Map empty strings, NA, N/A, none, null, -, and nan-like tokens to empty CSV cells."
+    },
+    {
+      "step_id": "normalize_units",
+      "operation": "unit_conversion",
+      "description": "Convert concentration units pM, nM, µM/uM/μM, and M to normalized_value_nM. Non-concentration units such as fold, ng/uL, ng/µL, ng, CFU, cells, and min^-1 are preserved but not converted."
+    },
+    {
+      "step_id": "standardize_sequences",
+      "operation": "sequence_cleanup",
+      "description": "Uppercase sequence-containing strings while preserving component labels, semicolons, fluorophore/quencher annotations, and linker names."
+    },
+    {
+      "step_id": "coerce_numeric_columns",
+      "operation": "type_cleanup",
+      "description": "Coerce numeric columns such as measurement_value, lod_nM, temperature_c, pH, Mg_mM, and Na_mM to numbers when possible."
     },
     {
       "step_id": "deduplicate_records",
       "operation": "deduplicate",
-      "description": "Remove duplicate rows sharing record_id or identical sequence+target+value+source.",
-      "fields": ["record_id", "aptamer_sequence", "target_name", "measurement_value", "source_id"],
-      "output_file": "data/interim/merged_records.csv"
-    },
-    {
-      "step_id": "validate_schema",
-      "operation": "validation",
-      "description": "Run rules in specs/validation_rules.json via scripts/validate_project.py.",
-      "input_files": ["data/processed/dataset.csv"],
-      "output_file": "reports/practice_05_cleaning_publication.md"
+      "description": "Drop duplicate record_id values first. Then drop exact duplicate measurement rows by source_id, sensor_architecture, dnazyme_name, target_name, measurement_type, measurement_value, measurement_unit, and source_location."
     },
     {
       "step_id": "export_final_dataset",
       "operation": "export",
-      "description": "Write schema-aligned columns to the publication dataset CSV.",
-      "input_files": ["data/interim/merged_records.csv"],
-      "output_file": "data/processed/dataset.csv"
+      "description": "Write schema-aligned final dataset to data/processed/dataset.csv."
+    },
+    {
+      "step_id": "export_lod_only_subset",
+      "operation": "filter_and_export",
+      "description": "Write an additional LOD-only subset to data/processed/dataset_lod_only.csv using records where measurement_type equals LOD."
+    },
+    {
+      "step_id": "validate_schema",
+      "operation": "validation",
+      "description": "Run scripts/validate_project.py after cleaning to check required files, schema alignment, record_id uniqueness, numeric measurement values, and source_id warnings."
     }
+  ],
+  "normalization_rules": {
+    "missing_tokens": [
+      "",
+      "na",
+      "n/a",
+      "none",
+      "null",
+      "-",
+      "nan"
+    ],
+    "unit_to_nM": {
+      "pM": 0.001,
+      "nM": 1,
+      "uM": 1000,
+      "µM": 1000,
+      "μM": 1000,
+      "M": 1000000000
+    },
+    "not_converted_units": [
+      "ng/uL",
+      "ng/µL",
+      "ng/μL",
+      "ng",
+      "fold",
+      "CFU",
+      "cells",
+      "min^-1",
+      "h^-1"
+    ],
+    "sequence_rule": "Uppercase; collapse whitespace; preserve component labels and modification annotations such as FAM, BHQ, HEG, rG/rU, and component_name=sequence."
+  },
+  "deduplication_keys": [
+    "record_id"
+  ],
+  "secondary_deduplication_keys": [
+    "source_id",
+    "sensor_architecture",
+    "dnazyme_name",
+    "target_name",
+    "measurement_type",
+    "measurement_value",
+    "measurement_unit",
+    "source_location"
   ]
 }
