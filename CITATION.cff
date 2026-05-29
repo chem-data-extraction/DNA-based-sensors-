@@ -1,18 +1,24 @@
 cff-version: 1.2.0
-title: "Aptamer–protein binding dataset"
+title: "DNA-based sensors for nucleic acid detection dataset"
 message: "If you use this dataset, please cite it as below."
 type: dataset
 authors:
-  - family-names: "Student"
-    given-names: "Name"
-    affiliation: "University / Course"
-repository-code: "https://github.com/example/aptamer-protein-binding-dataset"
-url: "https://github.com/example/aptamer-protein-binding-dataset"
+  - family-names: "Nesterova"
+    given-names: "Polina"
+    affiliation: "ITMO University"
+repository-code: "https://github.com/chem-data-extraction/DNA-based-sensors-"
+url: "https://github.com/chem-data-extraction/DNA-based-sensors-"
 version: 0.1.0
-date-released: 2026-05-22
+date-released: 2026-05-29
 keywords:
-  - aptamer
-  - protein binding
-  - affinity
+  - DNAzyme
+  - DNA sensor
+  - nucleic-acid detection
+  - RNA detection
+  - 16S rRNA
+  - viral RNA
+  - limit of detection
+  - LOD
+  - DNA nanomachine
   - scientific data extraction
 license: CC-BY-4.0
