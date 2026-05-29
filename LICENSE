@@ -1,6 +1,29 @@
-PLACEHOLDER LICENSE
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Replace this placeholder with the selected dataset license before publication.
-Recommended options may include CC-BY-4.0 or CC0-1.0, depending on source data constraints.
+Copyright (c) 2026 Nesterova Polina
 
-This template is provided for educational use only until a final license is chosen.
+This dataset, "DNAzyme-based nucleic-acid sensor records", is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+Share - copy and redistribute the dataset in any medium or format
+Adapt - remix, transform, and build upon the dataset for any purpose
+
+Under the following terms:
+
+Attribution - уou must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner, but
+not in any way that suggests the licensor endorses you or your use.
+
+This license applies to the cleaned and processed dataset files created in this
+repository, including:
+
+- data/processed/dataset.csv
+- data/processed/dataset_lod_only.csv
+- dataset documentation and metadata created by the project author
+
+This license does not apply to third-party source materials stored or referenced
+in the repository, including original scientific articles, supplementary files,
+publisher PDFs, DNAmoreDB pages, or other external source files. Those materials
+remain under their original licenses or publisher terms.
