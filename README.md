@@ -1,33 +1,48 @@
-# Aptamer–protein binding dataset (project template)
+# DNA-based sensors for nucleic acid detection dataset
 
-Publication-ready **dataset project template** for the course *Extraction and preparation of chemical information*. Students move from a research topic to a structured, validated dataset with documented sources, extraction steps, cleaning pipeline, reports, and citation metadata.
+Publication-ready dataset project for the course **Extraction and preparation of chemical information**.
 
-**Example topic:** Aptamer–protein binding dataset (replace with your own project in `project.json`).
+This repository contains a structured dataset of DNAzyme-based and DNA-based nucleic-acid sensing records. The project follows the course pipeline: record definition, source mapping, PDF extraction, web extraction, cleaning/normalization, validation, and publication metadata.
 
 ## Scientific task
 
-Collect experimentally reported aptamer–protein binding measurements (sequences, targets, affinity values, assay context) so they can be compared across literature and database sources.
+Collect experimentally reported quantitative measurements and structured metadata for DNAzyme-based nucleic-acid sensors.
 
 ## What is one record?
 
-One **record** = one experimentally reported aptamer–protein binding measurement from a specific source (one row in `data/processed/dataset.csv`). See `project.json` and `reports/practice_01_record_and_schema.md`.
+**One record** = one extracted measurement or structured metadata record for one DNAzyme-based or DNA-based nucleic-acid sensing system, DNAzyme component, or related assay condition from one source.
+
+Most rows describe sensor-performance values, such as LOD, detectable concentration, visual detection amount, or sensitivity improvement factor.
+
+Two rows are selected DNAmoreDB `metadata_only` records. These web-derived records are kept as structured DNAzyme metadata/source-discovery records and are not used for direct LOD comparison.
+
+See:
+
+- `project.json`
+- `reports/practice_01_record_and_schema.md`
+- `specs/dataset_schema.json`
 
 ## Repository structure
 
 | Path | Role |
-|------|------|
+|---|---|
 | `project.json` | Machine-readable project metadata |
-| `specs/` | JSON schemas, source map, manifests, pipeline, validation rules |
-| `data/raw/` | Unmodified PDFs, web snapshots, external exports |
-| `data/extracted/` | Extraction outputs (CSV + `extraction_log.jsonl`) |
+| `specs/` | Dataset schema, source map, extraction manifests, cleaning pipeline, validation rules |
+| `data/raw/` | Unmodified PDFs, supplementary files, web snapshots, external exports |
+| `data/extracted/` | Extracted PDF/web records, candidate tables, and `extraction_log.jsonl` |
 | `data/interim/` | Merged table before final cleaning |
-| `data/processed/` | Publication dataset (`dataset.csv`) |
-| `scripts/` | Reproducible extract, build, clean, validate |
-| `reports/` | Human-readable practice and final reports |
+| `data/processed/` | Publication-ready datasets |
+| `scripts/` | Extraction, build, cleaning, and validation scripts |
+| `reports/` | Human-readable practice reports and final report |
 | `notebooks/` | Optional exploration only |
 | `tests/` | Pytest checks for required artifacts |
 
-**Formats:** JSON for specs and manifests; CSV for tabular data; Python for pipelines; Markdown for reports and documentation only. Notebooks are optional.
+Formats:
+
+- JSON for specs and manifests;
+- CSV for tabular data;
+- Python for pipelines;
+- Markdown for reports and documentation.
 
 ## Five course practices
 
@@ -39,50 +54,97 @@ Develop the repository in five steps (see `reports/`):
 4. **Web extraction** — `specs/web_extraction_manifest.json`, `scripts/extract_web.py`, Practice 4 report  
 5. **Cleaning, normalization and publication** — `specs/cleaning_pipeline.json`, cleaning scripts, Practice 5 report  
 
-Complete **`reports/final_report.md`** and **`dataset_card.md`** before submission.
-
 ## Data pipeline
 
+The full data pipeline is:
+
 ```text
-raw (PDF / web / external)
-  → extract (pdf + web scripts) → data/extracted/*.csv
-  → build (merge) → data/interim/merged_records.csv
-  → clean → data/processed/dataset.csv
-  → validate (rules + pytest)
+
+`raw PDF / supplementary / web sources`
+
+→ extraction scripts and manual curation
+
+→ `data/extracted/*.csv`
+
+→ `scripts/build_dataset.py`
+
+→ `data/interim/merged_records.csv`
+
+→ `scripts/clean_dataset.py`
+
+→ `data/processed/dataset.csv`
+
+→ `data/processed/dataset_lod_only.csv`
+
+→ `scripts/validate_project.py`
+
 ```
+
+## How to install dependencies
+
+From the repository root: `pip install -r requirements.txt`
+
+## How to run extraction
+
+Run PDF candidate extraction: `python scripts/extract_pdf.py`
+
+This writes automatic candidates to: `data/extracted/pdf_extracted_candidates.csv`
+
+The curated file used for final processing is: `data/extracted/pdf_extracted_records.csv`
+
+This curated PDF file is manually prepared and must be present before running the cleaning pipeline.
+
+Run web extraction: `python scripts/extract_web.py` or run the two web steps separately: `python scripts/extract_web_candidates.py` and `python scripts/select_web_records.py`
+
+This produces:
+
+- `data/extracted/web_extracted_candidates.csv`
+- `data/extracted/web_extracted_records.csv`
+
+## How to build and clean the dataset
+
+From the repository root: `python scripts/build_dataset.py` and `python scripts/clean_dataset.py`
+
+This produces:
+
+- `data/interim/merged_records.csv`
+- `data/processed/dataset.csv`
+- `data/processed/dataset_lod_only.csv`
+
+## How to validate
+
+Run: `python scripts/validate_project.py`
+
+Expected result: `Validation passed`
 
 ## Required final artifacts
 
-- `data/processed/dataset.csv` aligned with `specs/dataset_schema.json`
-- Updated `specs/source_map.json` and extraction manifests
-- Practice reports 1–5 and `reports/final_report.md`
-- `dataset_card.md`, `LICENSE`, `CITATION.cff`
-- Passing validation and tests
+## Required final artifacts
 
-## How to run validation
+Before submission, the repository should include:
 
-```bash
-pip install -r requirements.txt
-python scripts/validate_project.py
-pytest
-```
-
-## How to build the dataset
-
-```bash
-python scripts/build_dataset.py    # merge extracts → interim + processed
-python scripts/clean_dataset.py    # normalize and write processed dataset
-```
-
-Placeholder extraction (no PDF/HTML libraries required):
-
-```bash
-python scripts/extract_pdf.py
-python scripts/extract_web.py
-```
+- `data/processed/dataset.csv`
+- `data/processed/dataset_lod_only.csv`
+- `specs/dataset_schema.json`
+- `specs/source_map.json`
+- `specs/pdf_extraction_manifest.json`
+- `specs/web_extraction_manifest.json`
+- `specs/cleaning_pipeline.json`
+- `specs/validation_rules.json`
+- `data/extracted/pdf_extracted_records.csv`
+- `data/extracted/web_extracted_records.csv`
+- `reports/practice_01_record_and_schema.md`
+- `reports/practice_02_source_map.md`
+- `reports/practice_03_pdf_extraction.md`
+- `reports/practice_04_web_extraction.md`
+- `reports/practice_05_cleaning_publication.md`
+- `reports/final_report.md`
+- `dataset_card.md`
+- `LICENSE`
+- `CITATION.cff`
 
 ## License and citation
 
-- Replace the placeholder in **`LICENSE`** before publication (e.g. CC-BY-4.0 or CC0-1.0, subject to upstream source licenses).
-- Fill in **`CITATION.cff`** with authors, version, and repository URL.
-- Summarize the dataset for users in **`dataset_card.md`**.
+The cleaned dataset is released under CC-BY-4.0.
+
+See: `LICENSE` and `CITATION.cff`
