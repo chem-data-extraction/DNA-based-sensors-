@@ -37,7 +37,7 @@ These three PDFs were selected because they represent three different time perio
 - **pdfplumber** — for extracting text and potentially simple tables
 - **Camelot** — for structured table extraction when tables have clear borders
 - **Tabula** — for table extraction from PDF, if needed
-- **Manual verification** — for figure values, table cleanup, source-location checking, ambiguous units, and candidate validation
+- **Manual verification** — for figure values, table cleanup, source-location checking, ambiguous units, candidate validation and extracting sequences from supplementary materials
 
 ## Extracted fields
 
