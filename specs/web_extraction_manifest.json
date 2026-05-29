@@ -1,5 +1,5 @@
 {
-  "web_extraction_version": "0.5.0",
+  "web_extraction_version": "0.2.0",
   "project_topic": "DNAzyme-based sensors / DNA-based nucleic-acid sensor components",
   "scripts": {
     "candidate_extraction": "scripts/extract_web_candidates.py",
@@ -68,7 +68,7 @@
       "url": "https://www.genesilico.pl/DNAmoreDB/dnazyme/1974/",
       "raw_snapshot_path": "data/raw/web/dnamoredb_entry_rfd_ec1.html",
       "selection_reason": "Expert-selected fluorogenic RNA-cleaving DNAzyme probe for Escherichia coli detection"
-    },
+    }
   ],
   "record_fields_extracted_from_site": [
     "DNAzyme name",
