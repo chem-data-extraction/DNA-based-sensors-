@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Matomo Image Tracker-->
+<img referrerpolicy="no-referrer-when-downgrade" src="https://anl.genesilico.pl/matomo.php?idsite=20&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNAmoreDB - A Database of Deoxyribozymes</title>
+   <meta name="author" content="Almudena Ponce Salvatierra">
+   <meta name="description" content="">
+   <meta name="keywords" content="deoxyribozymes, DNA, database">
+   <link rel="shortcut icon" href="/DNAmoreDB/static/img/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="/DNAmoreDB/static/img/favicon.ico" type="image/x-icon">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/DNAmoreDB/static/css/almudna.css" />
+
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/76f8c79c88.js" crossorigin="anonymous"></script>
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+<div class="widecontainer">
+
+<div id="left">
+  <a href="/DNAmoreDB/" ><img class="img-fluid" src="/DNAmoreDB/static/img/logo2.png" height="100px" style="margin:15px"></a>
+</div>
+
+<div id="right">
+  <div class="toplogo">
+    <a href="/DNAmoreDB/" ><img class="img-fluid" src="/DNAmoreDB/static/img/logo.png" width="300px"></a>
+    <div class="floating_div">
+    <div class="search_bar_div">
+      <form form id="searchform" action="/DNAmoreDB/searchsimple" method="get" accept-charset="utf-8">
+      <input id="search_bar_home" name="q" type="text" name="search" placeholder="Keyword Search" value="">
+      <button class="btn btn-default submit" id="submit" type="submit" data-toggle="popover" title="Searching...">
+        <span class="glyphicon glyphicon-search"></span>
+              </button>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+  <div class="topnav" id="myTopnav">
+    <a class="menu_element " href="/DNAmoreDB/" >Home</a>
+    <a class=" menu_element active" href="/DNAmoreDB/dnazymes">DNAzymes</a>
+    <a class=" menu_element " href="/DNAmoreDB/publications">Publications</a>
+    <a class=" menu_element " href="/DNAmoreDB/reactions">Reactions</a>
+    <a class=" menu_element " href="/DNAmoreDB/structures">Structures</a>
+    <a class=" menu_element " href="/DNAmoreDB/posters">Poster</a>
+    <a class=" menu_element " href="/DNAmoreDB/about">About</a>
+    <a class=" menu_element " href="/DNAmoreDB/help">Help</a>
+    <a class=" menu_element " href="/DNAmoreDB/api">API</a>
+    <a class=" menu_element " href="/DNAmoreDB/submit/">Submit</a>
+    <a class=" menu_element " href="/DNAmoreDB/searchadvance">Advanced Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+</div>
+</div>
+
+<div class="container">
+  <div id="mobile-menu" style="display:none">
+  <h4><b>Menu:</b></h4>
+  <ul class="list-group">
+
+  <li class="list-group-item"><a class="menu_element " href="/DNAmoreDB/" >Home</a></li>
+  <li class="list-group-item"><a class=" menu_element active" href="/DNAmoreDB/dnazymes">DNAzymes</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/publications">Publications</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/reactions">Reactions</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/structures">Structures</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/posters">Poster</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/about">About</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/help">Help</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/api">API</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/submit/">Submit</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/searchadvance">Advanced Search</a></li>
+  </ul>
+</div>
+</div>
+<!--
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+-->
+  <script>
+  function myFunction() {
+    var x = document.getElementById("mobile-menu");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+<!--
+-->
+
+ <div  style="margin: 30px;">
+   
+<nav class="navbar-default" style="border-radius:25px">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-left">
+      <li><h2>DNAzyme&nbsp;&nbsp;Mn13</h2></li>
+      <br>
+    </ul>
+  </div>
+</nav>
+<br>
+<nav class="navbar" style="border-radius:25px" size="30%">
+  <div class="container-fluid" id="link-back"></div>
+</nav>
+
+ </div>
+
+
+ <div  style="padding-top: 0px; padding-bottom: 50px; padding-left: 30px; padding-right: 30px;">
+
+
+
+
+<div id="tooltip"></div>
+<div class="container">
+
+<div class="row" id="dnazymecontent">
+  <h3>DNAzyme description</h3>
+  <table class="table">
+    <thead>
+      <tr>
+      
+      <th><a href="/DNAmoreDB/help#help4"><i class="fas fa-question-circle"></i></a>&nbsp;Reaction</th>
+      
+
+      
+      <th><a href="/DNAmoreDB/help#help7"><i class="fas fa-question-circle"></i></a>&nbsp;Reacting groups</th>
+      
+
+      
+      <th><a href="/DNAmoreDB/help#help1"><i class="fas fa-question-circle"></i></a>&nbsp;Substrates</th>
+      
+
+      
+      <th>Product</th>
+      
+
+      
+      <th><a href="/DNAmoreDB/help#help6"><i class="fas fa-question-circle"></i></a>&nbsp;Metal ion</th>
+      
+
+      
+
+      
+      <th><a href="/DNAmoreDB/help#help2"><i class="fas fa-question-circle"></i></a>&nbsp;Seq description</th>
+      
+    </tr>
+    </thead>
+    <tbody>
+      
+      <td><a href="/DNAmoreDB/reactions#14">DNA phosphorylation</a></td>
+      
+
+      
+      <td>
+        Group 1 - GTP, ATP<br><br>
+        Group 2 - 5'-OH<br><br>
+      </td>
+      
+
+      
+      <td>
+      
+      
+      
+       S: GGAAGATGGCGAC-N<sub>70</sub>-AGCTGATCCTGATGG<br>
+      </td>
+      
+
+
+      
+      <td>
+        5&#x27;-self phosphorylated DNA
+      </td>
+      
+
+      
+      <td>
+        
+          Mn<sup>2+</sup><br>
+        
+      </td>
+      
+
+      
+
+      
+      <td>N 70</td>
+      
+    </tbody>
+  </table>
+  
+  <table class="table" style="width:50%">
+    <thead><tr><th><a href="/DNAmoreDB/help#help3"><i class="fas fa-question-circle"></i></a>&nbsp;Buffer conditions</th></tr></thead>
+    <tbody><tr><td>50 mM HEPES pH 7.0, 400 mM NaCl, 100 mM KCl, 15 mM MnCl<sub>2</sub>, 1 mM ATP, 1 mM GTP</td></tr></tbody>
+  </table>
+  
+
+  
+
+  
+
+  
+  <table class="table" style="width:50%">
+    <thead><tr><th><a href="/DNAmoreDB/help#help11"><i class="fas fa-question-circle"></i></a>&nbsp;Catalytic region of the DNAzyme</th></tr></thead>
+    <tbody><tr><td class="sequence"><b>AGTTCCTCGGATAGGGTCTGGCATCGGCGGGAGGAAGCGGTGGGGGTGAGGATGGGCAAACCATGGTG</b></td></tr></tbody>
+  </table>
+  
+
+  
+
+  
+
+</div>
+
+
+
+
+
+
+<div class="row" id="dnazymes paper">
+  <h3><a href="/DNAmoreDB/help#help12"><i class="fas fa-question-circle"></i></a>&nbsp;Reported in...</h3>
+  <table class="table">
+    <thead>
+      <tr>
+      <th>Year of Publication</th>
+      <th>First Author</th>
+      <th>Laboratory</th>
+      <th>Title</th>
+      <th>PubMed ID</th>
+      <th>DOI</th>
+      <th>Reaction</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2002</td>
+        <td>W Wang</td>
+        <td>Y Li</td>
+        <td><a href="/DNAmoreDB/publication/69/">Sequence diversity, metal specificity, and catalytic proficiency of metal-dependent phosphorylating DNA enzymes.</a></td>
+        <td><a href="https://www.ncbi.nlm.nih.gov/pubmed/11983339">11983339</a></td>
+        <td><a href="https://www.doi.org/10.1016/S1074-5521(02)00127-8">10.1016/S1074-5521(02)00127-8</a></td>
+        <td>DNA phosphorylation</td>
+    </tr>
+    </tbody>
+
+  </table>
+</div>
+
+
+
+<br>
+
+</div>
+</div>
+
+<script>
+$('#hoover4').on('mousemove',function(e) {
+   var rowData = "For more detailed information on the reaction, visit the Reactions page or click on the reaction name."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover4').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+
+$('#hoover7').on('mousemove',function(e) {
+   var rowData = "These are the functional groups directly participating in the reaction. Group 1 refers to the 3’ end of the 5’ substrate (L), and Group 2 to the 5’ end of the 3’ substrate ( R)."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover7').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+
+$('#hoover1').on('mousemove',function(e) {
+   var rowData = "Substrates recognized by means of Watson-Crick base pairing. The L and R substrates base pair to the left and right binding arms of the DNAzyme (not shown)."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover1').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+
+$('#hoover6').on('mousemove',function(e) {
+   var rowData = "Metal ions/Cofactors: required for folding and/or catalysis."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover6').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+
+$('#hoover2').on('mousemove',function(e) {
+   var rowData = "Indicates the length of the random nucleotide region in the DNA pool subjected to in vitro selection."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover2').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+
+$('#hoover3').on('mousemove',function(e) {
+   var rowData = "Buffer used in during the selection step in the in vitro selection process."
+   $("#tooltip").text(rowData).animate({ left: e.pageX, top: e.pageY }, 1)
+   if (!$("#tooltip").is(':visible')) $("#tooltip").show()
+})
+$('#hoover3').on('mouseleave', function(e) {
+  $("#tooltip").hide()
+});
+</script>
+
+<script>
+var prev = document.referrer.split("/")[4].split("?")[0];
+if (prev == "structures" || prev == "publications" || prev == "dnazymes" || prev == "publication" ) {
+  document.getElementById("link-back").innerHTML = '<a href="javascript:history.back()"><i class="fas fa-arrow-left"></i>&nbsp;Go Back to ' + prev[0].toUpperCase() + prev.slice(1) + '</a>';
+}
+</script>
+
+
+</div>
+    </hr>
+ <div  style="padding-top: 60px; padding-bottom: 50px; padding-left: 30px; padding-right: 30px;">
+
+      Copyright © Genesilico - All rights reserved </br>
+      This website is free, open to all users and there is no login required.</br>
+      If you have any advice or suggestions for corrections or improvements, please contact:
+      <a href="mail:aponces@genesilico.pl">Almudena Ponce Salvatierra</a>
+ </div>
+
+
+ 
+ 
+
+</body>
+</html>

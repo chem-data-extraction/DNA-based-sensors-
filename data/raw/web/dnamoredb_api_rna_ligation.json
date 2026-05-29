@@ -1,0 +1,6414 @@
+{
+  "196": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CACGTGGACTTGGCATGGTCCCAGCGCTAGTTTTAAGCGC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA4",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "197": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTACACGACTGTGGTGTTGAACGGCTGCTAGCCGGCA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA6",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "198": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CACGTACACTTGGTATGGTGTGACACCTCAGCTCATACAT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA10",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "199": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTGACATTCATATGGGGTCGGTTCCAATCGCGAATTA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA15",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "200": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTACACTCGACGTGGTGACGCTGTGGCGTGAGCCTGT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA16",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "201": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CAGAGATGGGGTGTGATCTGGGTTGATAACACGGAGCGGTC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 41,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA18",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "202": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTACACTTAGAATGGTGCAGCCAGCATGCTGTACAGTA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 41,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA21",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "203": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTGCACTCTATGATGGTGTCCCCTGATACCAACAGGG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA23",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "204": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CACGTGACCTCAGGAATGGGTTCGAGGTGGGTGCACCTGC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA27",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "205": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCCGTACGCTGCCATGGCGCCATTCTGGCACGTAGTGTTG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA30",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "206": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GGAACGCAGTCGCACGTGACTAGGGAATCGTATCCTCATG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX1",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "207": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGTGGTTTCCGGAATGCCTAGCGTTCAAGTGTGGATGCTT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX3",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "208": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCGCGAGGCCGTGGCCCGAGTTGGTCAAAGCACAACGAGT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX4",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "209": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GATGTGGTCCAGCTGATAGGGCAGCGTTAGGCATACGTTG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX10",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "210": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCGACGGATTTAGGTGTGTTAGACAGGGTCGGGAATAGAT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX15",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "211": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCAGCGGGGAAGGCACTTCCAGGCAGGGGGGAAAAACAA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 39,
+    "linkage": "3',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX16",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "212": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGAGGCGTAGGTTAATTACAAACGGCTCAGACAACGTATG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "U16",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX6",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "213": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GGCGAAGGGACTACGTTGGCCATGCGGGTGGGCCGCTATG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "U16",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX35",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "214": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GAACGTGAGGTGCGGGAATTAATCACAAACCGGAAACGGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A17",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX39",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "215": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CACCACAATGGTTGATGCCGGGCCAAGTGGCGCAGCATAC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A17",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX43",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "216": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGCACGGAGCCCGTTAGGGGTCCACGGAGTGGGTGAACCT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A17",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX45",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "217": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CCGGGCATCAAGTGCGCAACGATGACGAAATCGGGTGGGT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A17",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX47",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "218": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGCACGGTCTGGTGTGGAAGCCAGGTTGCCTCCCTGCAAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A18",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX20",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "219": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CAGGGGGAGCGAGCACTAATACAAGCGGGTAGGAGGCCCT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A18",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX22",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "220": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGGGAGGAGGCAAAGGCTAGTTTGTCGGATAGGAGGCCCT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A18",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX23",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "221": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGTGGGAGCCATTGGGAGGGGCTGAGAACATAAGTCACGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "A18",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX34",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "222": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCAGTGCAAATGAGGCATGGAGAAACTACTCTATGCTGAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX8",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "223": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCAGTGCAAATGAGTAAGGACTGATATCAGTCACTACGAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX16",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "224": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCAGTGCTAATGAGGGTGTGGCAGAAGCTATACAGCCGAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX40",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "225": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GCAGTGCTAATGAGGTATCGCAAATAAGTGCGCAGCCGAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX42",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "226": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GACGGGTGGGGAAATCAGCCTGTATTGGGTTCAGAGCGGA",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX19",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "227": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GACGACAGCGGTTCCCAGCTCAGTAGTGATAGTTTACTGC",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX21",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "228": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GACACCGAGCAGAGGACCGGACCTAGTTGGTAAAAGGTAA",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6BX26",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "229": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CACAGGCGCGCGAGGGGCTATGTCCGGTGGTGCAGGCGGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "U16",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA17",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "230": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGGAAGGATGACAAGGAGCGTAGCTGATGGGGACTCAGAC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "A17",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA28",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "231": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GGGGCGTAGTGGAGACCGGGGACAGTGGAGTACGTCCAGC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "U18",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA2",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "232": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GTTAACGCAGGGCGTCGTACTACATCCTTGTGCAGCTACG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA20",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "233": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "TGAAGCGCGTTATCCATGCAAAAAATGGATCCGGTACCAAC",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 41,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA1",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "234": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "TGCAGCGGCTGCGCGGGTATCCGGTCTCCAGGGGACGCTT",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA5",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "235": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "AGACCCAGTGTTCTCAGCCGCCCGCCGCAGCGGGGAGGTA",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA7",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "236": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CGAAGACGAGGAGTAACCTTAGATGAAGGTGGGGACGATT",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA14",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "237": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GGGCGAGGACCGGGTACTAGGGGAACACGCCGCACGCGGG",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA24",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "238": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "AGACGCAGTGTCAGGGTACCACAGACATGTGGAGTGGCTG",
+    "fg1s": [
+      "2',3' - diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "6CA25",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "239": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "CATGCGTGTTGCGTGGATACGAGGCTATTCAGAGGGTAAA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAACA",
+    "length": 40,
+    "linkage": "C19",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Directing the outcome of deoxyribozyme selections to favor native 3'-5' RNA ligation.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "9BX11",
+    "notes": "",
+    "r": "GUAUGUUCUAGCGCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "240": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40mM MgCl2",
+    "e": "TTCGGTGGAGGTAAGCTCTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 20,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T K Prior,  K A Hoadley",
+    "main_article_pub_date": "2003",
+    "main_article_title": "In vitro evolution of an RNA-cleaving DNA enzyme into an RNA ligase switches the selectivity from 3'-5' to 2'-5'.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "20",
+    "name": "7P4",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.42  (h<sup>-1</sup>)",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "15"
+  },
+  "241": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40mM MgCl2",
+    "e": "TTCTGCGCAGGTAAGCTGTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 20,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T K Prior,  K A Hoadley",
+    "main_article_pub_date": "2003",
+    "main_article_title": "In vitro evolution of an RNA-cleaving DNA enzyme into an RNA ligase switches the selectivity from 3'-5' to 2'-5'.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "20",
+    "name": "7Q2",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.32  (h<sup>-1</sup>)",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "10-15"
+  },
+  "242": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40mM MgCl2",
+    "e": "TTTGTGGAGGTAAGCTCTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 19,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T K Prior,  K A Hoadley",
+    "main_article_pub_date": "2003",
+    "main_article_title": "In vitro evolution of an RNA-cleaving DNA enzyme into an RNA ligase switches the selectivity from 3'-5' to 2'-5'.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "20",
+    "name": "7Q5",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 1.1  (h<sup>-1</sup>)",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "10"
+  },
+  "243": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40mM MgCl2",
+    "e": "TTACGTGGAGGTGGGCTCTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 20,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T K Prior,  K A Hoadley",
+    "main_article_pub_date": "2003",
+    "main_article_title": "In vitro evolution of an RNA-cleaving DNA enzyme into an RNA ligase switches the selectivity from 3'-5' to 2'-5'.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "20",
+    "name": "7Q10",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.19  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 2.4  (h<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "30"
+  },
+  "244": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "ACGGCGAGTTTCATGGAGTGATTGGGAGGTTAGCTCTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "2',5'",
+    "main_article_first_author": "T K Prior",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "D R Semlow,  A Flynn-Charlebois,  I Rashid",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Structure-function correlations derived from faster variants of a RNA ligase deoxyribozyme.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "7Z81",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 2.65  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.60  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "35-38"
+  },
+  "245": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "ACGGGGCCGGTTTGCGTGCCTGATTGGGAGGTTAGCTCTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "T K Prior",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "D R Semlow,  A Flynn-Charlebois,  I Rashid",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Structure-function correlations derived from faster variants of a RNA ligase deoxyribozyme.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "7Z48",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 2.13  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.52  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "37"
+  },
+  "246": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCCGAGGAGGGGCGGGGGGACTTGGTGTGGAGTTTCATTC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "T K Prior",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "D R Semlow,  A Flynn-Charlebois,  I Rashid",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Structure-function correlations derived from faster variants of a RNA ligase deoxyribozyme.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "7Z101",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.20  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.033  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "45-50"
+  },
+  "247": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CTTTACGGTAGGGTGCCTGTGATAATGATCAGGGGACGGC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "Y Wang,  T K Prior,  I Rashid,  K A Hoadley,  R L Coppins,  A C Wolf",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes with 2'-5' RNA ligase activity.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9A12",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.39  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.065  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40-60"
+  },
+  "248": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "AAGGGGAGGGCCGATTGGCATTATCGGCGTCTTAGCTCTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "Y Wang,  T K Prior,  I Rashid,  K A Hoadley,  R L Coppins,  A C Wolf",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes with 2'-5' RNA ligase activity.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9A5",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.76  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.18  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40-60"
+  },
+  "249": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "TAACCGTGGTTACCGTAAGCGCGGGGCTTATAGGGGATT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "Y Wang,  T K Prior,  I Rashid,  K A Hoadley,  R L Coppins,  A C Wolf",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes with 2'-5' RNA ligase activity.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9A6",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.17  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.040  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40-60"
+  },
+  "250": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "TGCGTTCTGATGAATTGCACATAGCTTATAGTTCCTTGCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "A Flynn-Charlebois",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "Y Wang,  T K Prior,  I Rashid,  K A Hoadley,  R L Coppins,  A C Wolf",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes with 2'-5' RNA ligase activity.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9A2",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.08  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.023  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40-60"
+  },
+  "251": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2",
+    "e": "AATGAGGCTTGGCAGGGATTTAGTATTTTAACACTCCCGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUX",
+    "length": 40,
+    "linkage": "A15",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes that synthesize branched and lariat RNA.",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9F7",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.27 (min<sup>-1</sup>) at pH 7.5",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": null,
+    "structures": [],
+    "x": "A, C, dA, dC",
+    "yield": ">85"
+  },
+  "252": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2",
+    "e": "AATGATGCTTGACAGGGTCTATAGTTTCTATGTAGCCCGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUX",
+    "length": 40,
+    "linkage": "A15",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes that synthesize branched and lariat RNA.",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9F21",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.13 (min<sup>-1</sup>) at pH 7.5",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "A, C, dA, dC",
+    "yield": ">85"
+  },
+  "253": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2",
+    "e": "AGGATGTGGGGTTTTGCCCGAGGGTATGGCAGTGGGGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUX",
+    "length": 38,
+    "linkage": "U14",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes that synthesize branched and lariat RNA.",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9F13",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 2.2 (min<sup>-1</sup>) at pH 7.5",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "A, C, dA, dC",
+    "yield": ">85"
+  },
+  "254": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2",
+    "e": "GGGATGTGGGGCGCCACCAAGTTAATGTTTGGTTTGGGGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUX",
+    "length": 40,
+    "linkage": "U14",
+    "main_article_first_author": "Y Wang",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2003",
+    "main_article_title": "Deoxyribozymes that synthesize branched and lariat RNA.",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9F18",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.81 (min<sup>-1</sup>) at pH 7.5",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "A, C, dA, dC",
+    "yield": ">85"
+  },
+  "255": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "GGATCATACGGTCGGAGGGGTTTGCCGTGAACATTCTTCA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "W E Purtha",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "R L Coppins,  M K Smalley",
+    "main_article_pub_date": "2005",
+    "main_article_title": "General deoxyribozyme-catalyzed synthesis of native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9DB1",
+    "notes": "",
+    "r": "GAUGUUCUAGCGCCGGA",
+    "rate_constant": "k<sub>obs</sub> = 0.2  (h<sup>-1</sup>) at pH 7.5, k<sub>obs</sub> = 0.036  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": null,
+    "structures": [],
+    "x": null,
+    "yield": "60-70"
+  },
+  "256": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "GGATCATACGGTCGGAGGGGTTTGCCGTTTA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUA",
+    "length": 31,
+    "linkage": "3',5'",
+    "main_article_first_author": "F Wachowius",
+    "main_article_last_autor": "C Höbartner",
+    "main_article_mid_authors": "F Javadi-Zarnaghi",
+    "main_article_pub_date": "2010",
+    "main_article_title": "Combinatorial mutation interference analysis reveals functional nucleotides required for DNA catalysis.",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "9DB1*",
+    "notes": "",
+    "r": "GAUGUUCUAGCGCCGGA",
+    "rate_constant": "k<sub>obs</sub> = 0.016  (min<sup>-1</sup>) at pH 9.0",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": null,
+    "structures": [
+      "5CKI",
+      "5CKK"
+    ],
+    "x": null,
+    "yield": "60-70"
+  },
+  "257": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTAGGGTTGGTAGACCAGGTTGAGCCGGCGTCCTTGTTTA",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "W E Purtha",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "R L Coppins,  M K Smalley",
+    "main_article_pub_date": "2005",
+    "main_article_title": "General deoxyribozyme-catalyzed synthesis of native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7DE5",
+    "notes": "",
+    "r": "GAUGUUCUAGCGCCGGA",
+    "rate_constant": "k<sub>obs</sub> = 0.02 (min<sup>-1</sup>) at pH 7.5",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40-50"
+  },
+  "258": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCCATTGTGCATTGTGGTGCAACTGTACGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX2",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "259": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCAGGTTTGGCACGCGTGCCACTAACCCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX3",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "260": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGGGAGCCTGATGGAAGAATGGGAGAACAGCACGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX4",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.012  min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "45-60"
+  },
+  "261": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGGAGAGCTAGGAGGCGCTGAGTCTCGGCTCCTCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX5",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "262": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCAAGCGAGGGATACATGAACCGAAACCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX6",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.03 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "45-60"
+  },
+  "263": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCAGTAAACGGAAGGCCTCTTCCTGTCCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX7",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "264": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCATGTGGCACCCTGGCAGGAACCTAACGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX8",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.01 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "45-60"
+  },
+  "265": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACTGAGAGCCTCGATGAATGCCTAATTATATCGTCGCGCC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX9",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "266": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCAATACGTATGAAGATATTGAAGTTTCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX10",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "267": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCATCACTGTAACCGCCGTGCGGTGGACGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX12",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "268": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGGAGAGCAGTTATGATGCATGAGCCATTGACCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX13",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "269": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGGAGAGCAGCGATGCAAGACATTGGGGCGGAGCCGCGCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX14",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "270": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TGAGAGCATTTCCGGCGGAGCTCTACGGGGGCCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX21",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "271": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TTTAGTCAGGAGTAGACATCGATGATTGCTAATCGAACCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "7CX11",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "272": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGAACCGCGGTGTAGACACAGATCGCGGCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW1",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "273": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TACAAGGTGGGAGGAGGGAGCACCGATGCGGCATATCGTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW8",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "274": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGGAGAGCAGTTATGACGCATAAGCTATTGACCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW11",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "275": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGAGAGCAATCACTTTGGGTAGGTACGGGTGAACGCGCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW15",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "276": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTTAGAGCCAAACACGTTTGTGTCAGCGGGTTTCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW16",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "277": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGAAGAGCAATGTACTCCGACGTCAGAGGATATCGCGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW20",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "278": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACGCCCACCATTTAAGAGCATCGCCGGAATAGCGGGGACT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW3",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "279": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GCACGGCCGGATTGGGGGGCCCAATGACTTGATCATTGCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW4",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "280": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACACGCGTTACGGACTGAGCAGATTCAGGCCAAACTGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW9",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "281": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACATGTGCGGTAATGAGGCGTAGACAAATAGAGATACCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW12",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "282": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GGGGAAGACAAGATAGTCGAGGGGGACGCGCTCTCAGCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW13",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "283": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GCGGGGTTAAGCCACGAATGCGGGGCAAAGCGTACCCCCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "8CW14",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "284": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CAGCGCGATTGAGTGCGTGATTGAAGCTCGGGGTTGGTTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB5",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.020/0.013 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "35/17 for R substrates with 5'-dG and G, respectively."
+  },
+  "285": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CAGAGCCCCTTACGTACAGCCTTTTTAGGTAACCGGGGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB12",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.011/0.0039 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "30/12 for R substrates with 5'-dG and G, respectively."
+  },
+  "286": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CAGCGCGATTGGGGGCGTGATTGAAGCTCGGGGTTGGTTA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB24",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "287": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACTATACCACCGAGATTCGAATTGGAGCAGTAGTGGCTTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB26",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "288": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TGTAGCCTTCTGAAGGTTGGCTGGTTCGGCGAGGTGGGAA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB33",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "289": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACCGGTCCCTGTCGGTCGAAGGAGTGGCACTGAGGAGAAT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB36",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "290": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACGCGAGGGGAGTTCAATCGCTTGTTCGGCAAGGTCGGGA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB41",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "291": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CCGCTCCGATTGGTGGAGTCTATTGGGGCCTGTAGGCGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB1",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.056/0.060 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "20/5 for R substrates with 5'-dG and G, respectively."
+  },
+  "292": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACCGCGGGAGCTACGTTAGTGGTAACTGCTTGTAGGCGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB2",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.077/0.060 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "15/5 for R substrates with 5'-dG and G, respectively."
+  },
+  "293": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "AAGGCAGCAGGCGGCATTTTTTGTCCGTACGTTCTCCTATA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 41,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB21",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "294": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "ACCGCGGGAGTTTCGTTAGTGGTGACTGCTTGTAGGCGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB22",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "295": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTAGAGTGGTTCCGGTTATCGCCTTAGATACCATTGCTGT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB25",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "296": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CCGCTCCGATTGGTGAAGTCTATTGGGGCCTGTAGGCGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB27",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "297": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CCGCTGCGGAGGTTGTACGCGTCTGTGGCTTGTAGGCGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB38",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "298": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TACACCTATTATGGTTTCGTGAGGGGTGTGGCTGGTGCTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB6",
+    "notes": "2',3'-branch or 2',2'-branch",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.065/0.046 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "35/40 for R substrates with 5'-dG and G, respectively."
+  },
+  "299": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CACGCTGACTAGCTTCGTGAGGGGGTGTGATAGATGCGG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB8",
+    "notes": "2',3'-branch or 2',2'-branch",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.0107/0.056 min<sup>-1</sup> for R substrates with 5'-dG and G, respectively.",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "Approx. 35 for R substrates with 5'-dG and G."
+  },
+  "300": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TACACCTATAATGGTTTCGTGAGGGGTGTGGCTGATGCTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB23",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "301": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CCTGTACTGCGCTGCTCAAATCAGCCGGGTGTGTGAACTC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB30",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "302": {
+    "buffer": "70 mM Tris pH 7.5, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TGTATGTGGGGGGTGTGTATCAGTCTACTGTGGCTTAAGC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "n",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "D M Kost",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "J P Gerdt,  P I Pradeepkumar",
+    "main_article_pub_date": "2008",
+    "main_article_title": "Controlling the direction of site-selectivity and regioselectivity in RNA ligation by Zn2+-dependent deoxyribozymes that use 2',3'-cyclic phosphate RNA substrates.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "12BB32",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "303": {
+    "buffer": "70 mM Tris pH 7.9, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "AGGGAGCGGTGTGGCACAGACAGGGTATTAACTCTGTGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "6J12",
+    "notes": "3'-2' or 2'-2' linear junctions",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.5 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "50"
+  },
+  "304": {
+    "buffer": "70 mM Tris pH 7.9, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "GTGGGAGGACGCGTCAGTAGTTATGACCTGCCTGAGTGCT",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "6J1",
+    "notes": "same as 6J12",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.044 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "60"
+  },
+  "305": {
+    "buffer": "70 mM Tris pH 7.9, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "CGGGAGAGGAGTGGCAGAGATACTGTGAATGTAATCTGAG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "6J18",
+    "notes": "same as 6J12",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.061 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "45"
+  },
+  "306": {
+    "buffer": "70 mM Tris pH 7.9, 150 mM NaCl, 2 mM KCl, 1 mM ZnCl2",
+    "e": "TGCACGGGGGGTGAGGTTTCCGCCGTTGAAACGTAGCACG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "*",
+    "main_article_first_author": "K A Hoadley",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "W E Purtha,  A C Wolf,  A Flynn-Charlebois",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Zn2+-dependent deoxyribozymes that form natural and unnatural RNA linkages.",
+    "metal_ions": [
+      "Zn2+"
+    ],
+    "n": "40",
+    "name": "6J2",
+    "notes": "3'-2' or 2'-2' linear junctions (whichever is not formed by 6J12)",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.018 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "unnatural",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "15"
+  },
+  "307": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CAGTGCAGGGCGTGAGGGCTCGGTTCCCGTATTATCT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 37,
+    "linkage": "A8",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "A DNA enzyme that mimics the first step of RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "37",
+    "name": "7S11",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.5 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ">90"
+  },
+  "308": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CAGCGCAGGGTGTGAGGGCTCGGTTCCCGTATTATTT",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 37,
+    "linkage": "A8",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "A DNA enzyme that mimics the first step of RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "37",
+    "name": "7S10",
+    "notes": "LARIAT FORMATION",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "309": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 2 mM KCl, 20 mM MnCl2",
+    "e": "GGCACTCAGAGCGCACGGCG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAAGUCUCAUGUACUAUCG",
+    "length": 20,
+    "linkage": "U16",
+    "main_article_first_author": "E D Pratico",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "Y Wang",
+    "main_article_pub_date": "2005",
+    "main_article_title": "A deoxyribozyme that synthesizes 2',5'-branched RNA with any branch-site nucleotide.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "20",
+    "name": "6CE8",
+    "notes": "",
+    "r": "GAAUGUUCUAGCGCGGA",
+    "rate_constant": "k<sub>obs</sub> = 0.67 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "90"
+  },
+  "310": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCCGACGATGGAATGGAAGGGCGGGAGAGCCGCGGTAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY1",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "311": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CAGCCTACGGGTAACAAGGTGCGAGAGATCAGCGGCAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY3",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "312": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CACGAGATGTTTACCACGCTGCGGGAGATTAGCGGTAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY9",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "313": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CACAAGGGAACAGGCTGCGTGTGAGAGAGTCGCGGTAA",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY11",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "314": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CAGGTCGTTAGGCGGGAGATAACAAGGTGAAGCGGTAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY13",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.0077 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "40"
+  },
+  "315": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CACGGCAACAGCAACAGCAGTGCGAGAGAGACGCGGTAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "3',5'",
+    "main_article_first_author": "R L Coppins",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2004",
+    "main_article_title": "Rational modification of a selection strategy leads to deoxyribozymes that create native 3'-5' RNA linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "38",
+    "name": "8AY17",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "316": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "GACGCCACCGAAGTCGCCATCTCCCGTAGGTGAAGGGCGTGAGGGTTCCA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX1",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": null,
+    "structures": [],
+    "x": null,
+    "yield": ""
+  },
+  "317": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCCACCGGTAGGGCTACGGGCAAGGTCAACATGCCGCAAGTGAGGGGTCGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 51,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX3",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "318": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CAGGCCATGGATTATTGGAGGAATGGGCCGTCAGCGCGTGAGGTGTGGA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 49,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX5",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "319": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CAGTGCAGGGCGTGAGGGCTCCATCCCCAGTGCAGGGCGTGAGGGCTCGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX6",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.29 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "75"
+  },
+  "320": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCGACGAGGTGAGGGGCATGCGGTACACGCGCATATAGTGAGGGGTCCA",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 49,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX8",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "321": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCCCGAGGTGTGGACATAGCGGGCTGGTGTGGCGCGCAGTGAGCCTAGTG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX12",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "322": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CATCGGTGTAGCGATGCACGGGCAAAGATACATTCGCAGTGAGGGTGCGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX13",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "323": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCACGTGCGAGGTTAGACGTCAGTGGCTGGTGTTCGCAGTGAGCCTATTG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX14",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "324": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCGACGCGTCCAGGAGGCAAGGGCTATATGCACCGCAGTGAGGGCTCGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 49,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX15",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "325": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CACGAGGTAGGGAGGGGCACACTGCTATGCTCAGCGCAGTGAGAGTATGC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX16",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "326": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CACATGTCTAGCGGCGTGCGGGAGAAGTGCAAGCGCTGTGAGGGTGTG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 48,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX17",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "327": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "CCAAGGCAGAGCGTAGCCAGACAGCCGGGAGGTTCGCAGTGAGTGAATGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX18",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "328": {
+    "buffer": "50 mM HEPES pH 7.5, 20 mM MnCl2, 150 mM NaCl, 2 mM KCl",
+    "e": "GTAGCCACATTAGTGCGCTGCAACTGCTATGCAACGCAGTGAGAGGGTGC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAUAAUACGACUCACUGCG",
+    "length": 50,
+    "linkage": "A11",
+    "main_article_first_author": "C S Lee",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "T P Mui",
+    "main_article_pub_date": "2011",
+    "main_article_title": "Improved deoxyribozymes for synthesis of covalently branched DNA and RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "*",
+    "name": "8LX21",
+    "notes": "Pool N33-CGCAGTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "341": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTAACCATTATCCTCGATTGTTAGAGCGAACAGCTGCAACGGGTTGATTATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-18",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "k<sub>cat</sub> = 0.030  min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "342": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTAACCACTATCCATGATTGTAAGAGCGGACAGCTGCAACGGGTTGATTATAGTGGGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-13",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "343": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTAACCATTATCCTCGATTGTTAGAACGAACAGTTGCAACGGGTTGATTATAGTGGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-9",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "344": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "TAACCCATTATCTTCGATGTTAGAACGAACAGCTGCAACGGGTTGATTATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 56,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-19",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "345": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTCGCCATTATCCTTGAGTGTTAGAACGAACAGTTGCAACGGGTTGATTATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-15",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "346": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTATGCATTATCCTTGACTGTTAGATCGAGCAGTTGCAACGGGTTGATTATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-7",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "347": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTAACCATTATCCCTGATTGTTAGAACGAACAGTTGCGACGGGTTGATTATAGTGAC",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-22",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "348": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTACGCATTATCCCTGGTTGTTAGAACGAGCAGTTGCAACGGGTTGATTATAGTGAC",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-6",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "349": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CAAACCATTATCCTCGATTGCAAGAACGAGCAGTTGGAACGGGTTGATTGTAGTGAGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-21",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "350": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CATATTCATCATCCTCGACTGCAAGAAAGAACAGTTGGAACGGGTTGAATATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-3",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "351": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTCCTCATTATTCACGAATGATAGCACGAATAGTGTGAACGGGTTGATTATAGTGGCG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-5",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "352": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTCCTCATTATTCTAGAATGATAGCACGAATAGTGTGAACGGGTTGATTATAGTGGCG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-17",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "353": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CAGCTCATTATTCACGAATGATGCACGAATAGTGTGAACGGGTTGATTATAGTGGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 56,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-4",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "354": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "AACCCTCATTATCCACCAATGATAGCACGAATAGTGTGAGCGGGTTGATTATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 58,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-12",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "355": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTACCCATTATTCACGAATGATAGCACGAATAGTGTGAACGGGTTGATTATAGTGAC",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-20",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "356": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "AGGACTCATTAAGCTCGATTGCTCGAACGAACGGTTGGCACGGGTTGATTATAGTG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 56,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-14",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "357": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CGCAGCATTATGCTCGCATGCCCGAACGAACGGTTGGCACGGGTTGATTATAGTGGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-8",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "358": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CGACTGGTTTTGCTCGTTTCTTCGTAGGAACAGATGTAATGGGTTGATATAGTGGCG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-2",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "359": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CGACTGGCTCTGCTCGTTTCTTCGAATGAACAGATGTAGTGGGTTGATATAGCGCG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 56,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-10",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "360": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CGACTAATCATGCTCGAATGTTCGTAAGAACAGTCTGTGCGGGTGGAATATAGTGAG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-16",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "361": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "ACTGACTCATACTGCACGCTTGTCCCTAAGGTAGTTGCGCAGGTGGAATATAGTGGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 57,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-1",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "362": {
+    "buffer": "25 mM MgCl2, 25 mM EPPS pH 8.5",
+    "e": "CTACGGGTTATGGTTGATTATACGTAAAAACAGTTAGGATGAGTTGTTGGTCGTGG",
+    "fg1s": [
+      "2',3'-diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "d(GAACTGACGAACTGATGCTCAC)-r(UAUA)",
+    "length": 56,
+    "linkage": "2',5'",
+    "main_article_first_author": "N Paul",
+    "main_article_last_autor": "G F Joyce",
+    "main_article_mid_authors": "G Springsteen",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Conversion of a ribozyme to a deoxyribozyme through in vitro evolution.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10-11",
+    "notes": "evolved from R3C ribozyme N51, binding arms anotated together with the catalytic core",
+    "r": "GAGACCGUAAUGAGUAG",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "364": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCGTAGGTGAAGGGCGTGAGGGTTCCATTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM24",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.26 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": null,
+    "structures": [],
+    "x": null,
+    "yield": ">85"
+  },
+  "365": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CGGTAAGGCCAGGGCGTGAGGGTCCGCTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM3",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.18 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ">80"
+  },
+  "366": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CATTATGCGAAGGGCGTGAGGGTTCCGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM5",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.32 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "75"
+  },
+  "367": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCTGTGGCAAAGGGCGTGAGGGTACTGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM10",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.31 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "80"
+  },
+  "368": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCTATGGCCCAGGGCGTGAGGGTGCGGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM19",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.27 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ">80"
+  },
+  "369": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "AGTGTGCTGCTAGGGCGTGAGGGTCCGCTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 32,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "10DM21",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.19 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "90"
+  },
+  "370": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCGGCAGGCAAGGGTGTGAGGGCTCGGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "7DM3",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.11 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "90"
+  },
+  "371": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CCGTAGGCAAAGGGCGTGAGGGCTCGGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "7DM11",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.13 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "90"
+  },
+  "372": {
+    "buffer": "50 mM CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CATTATGCCCAGGGCGTGAGGGTGCGGTTCC",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAUAAUACGUCUCAC",
+    "length": 31,
+    "linkage": "A8",
+    "main_article_first_author": "E Zelin",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Yangming Wang",
+    "main_article_pub_date": "2006",
+    "main_article_title": "Adenosine is inherently favored as the branch-site RNA nucleotide in a structural context that resembles natural RNA splicing.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "7DM12",
+    "notes": "Pool N15-GTGAG-N7",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.15 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ">80"
+  },
+  "373": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "CTACAGGACCCGCGCAAAAGTGATTTCAGAGGTATGGGTG",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "8BG11",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "374": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "CTAACTGTCAGATTCATCTAAAGATGGGGGGTTGTTTGAC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 40,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "8BG29",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "375": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "GGCGTTAAGGATTGGCGGAAACGGGTGGATCGCGGACC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "8BH6",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "376": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "AGGGACAAACCATAAGTCGCATCGGGTGGAACGTAGACC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 39,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "8BH41",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "377": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "GGCCGCTCACCCGTAGAACGGGTTGGATCCTAGGGGAC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "12BK15",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "378": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "GTCCAAGTGCAAAAGTCTTGAAGCCACTGCTAGGGCAC",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "12BK21",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "379": {
+    "buffer": "50 mM CHES pH 9.0, 40 mM MgCl2",
+    "e": "GGACAATGGCACACAGTGTGGTCAGGAACTAGGTGATA",
+    "fg1s": [
+      "2',3'-cyclic phosphate"
+    ],
+    "fg2s": [
+      "5'-OH"
+    ],
+    "kinetics": "y",
+    "l": "UAAUACGACUCACUAUA",
+    "length": 38,
+    "linkage": "2',5'",
+    "main_article_first_author": "D R Semlow",
+    "main_article_last_autor": "S K Silverman",
+    "main_article_mid_authors": "",
+    "main_article_pub_date": "2005",
+    "main_article_title": "Parallel selections in vitro reveal a preference for 2'-5' RNA ligation upon deoxyribozyme-mediated opening of a 2',3'-cyclic phosphate.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "40",
+    "name": "12BK29",
+    "notes": "",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.2-0.3 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "non-native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "25-35"
+  },
+  "536": {
+    "buffer": "50 mm CHES pH 9.0, 150 mM NaCl, 2 mM KCl, 40 mM MgCl2",
+    "e": "CAGCTATATGTGCTGGACTGAGAGGGGTAGTTTCGCAGTGAGGTGTAGG",
+    "fg1s": [
+      "internal 2'-OH"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGATAATACGXTTCACTGCG",
+    "length": 49,
+    "linkage": "branch-site nucleotide X",
+    "main_article_first_author": "P I Pradeepkumar",
+    "main_article_last_autor": "Scott K Silverman",
+    "main_article_mid_authors": "Claudia Höbartner, Dana A Baum",
+    "main_article_pub_date": "2008",
+    "main_article_title": "DNA-catalyzed formation of nucleopeptide linkages.",
+    "metal_ions": [
+      "Mg2+"
+    ],
+    "n": "*",
+    "name": "9HR17",
+    "notes": "Pool N33-CGCAGTGAG-N7, the deoxyribozyme's sequence is anotated with the 9-nt linker between the two initially randomized regions",
+    "r": "GGAAGAGAUGGCGACGG",
+    "rate_constant": "k<sub>obs</sub> = 0.0094 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "branched RNA",
+    "s": "",
+    "structures": [],
+    "x": "rA, rC",
+    "yield": "61"
+  },
+  "1124": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM alachlor, 10% methanol ",
+    "e": "GGAGACAGGTTCCGGATGCATG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9Q1",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1125": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM alachlor, 10% methanol ",
+    "e": "GGAGATAGGTTCCAGCTGATTG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9Q2",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1126": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM alachlor, 10% methanol ",
+    "e": "GGACCGATGGAGTGAACTATGC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9Q5",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1127": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM alachlor, 10% methanol ",
+    "e": "ACGGACAGTTTCCGGAGCCGTG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9Q9",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1128": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGTACGGGGCGTGCGGAGGCAC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R2a",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1129": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGTTCGGGGTATGCGGAGGCAT",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R2b",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1130": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGACCGATGGAGTGAACTATGC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R4a",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1131": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGACCATGTTGGAGCGGCCCAG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R6",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1132": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGACCATGGGGGAGCGGCCCGC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R7",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1133": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGAGGATCGGACAGCGTTATCG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R16b",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1134": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM atrazine, 10% methanol",
+    "e": "GGAGCGACACACAGACCTGTTC",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "y",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "9R20",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "k<sub>obs</sub> = 0.133 h<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "70"
+  },
+  "1135": {
+    "buffer": "50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM KCl, 40 mM MgCl2, 20 mM MnCl2, 1 mM alachlor, 10% methanol ",
+    "e": "GGAGGATCGTACAGCGTTATCG",
+    "fg1s": [
+      "2',3 '- diol"
+    ],
+    "fg2s": [
+      "5'-triphosphate"
+    ],
+    "kinetics": "n",
+    "l": "GGAACUGCGAUCUAGUGA",
+    "length": 22,
+    "linkage": "3',5'",
+    "main_article_first_author": "A K Behera",
+    "main_article_last_autor": "A Baum",
+    "main_article_mid_authors": "K J Schlund, A J Mason, K O Alila,  M Han, R L GroutD",
+    "main_article_pub_date": "2013",
+    "main_article_title": "Enhanced deoxyribozyme‐catalyzed RNA ligation in the presence of organic cosolvents",
+    "metal_ions": [
+      "Mn2+",
+      "Mg2+"
+    ],
+    "n": "22",
+    "name": "10Q7b",
+    "notes": "In vitro selections aim at identifying RNA-ligating deoxyribozymes that depend on a target herbicide for activity. The selections denoted 'Q' used alachlor, while the selection denoted 'R' used atrazine.",
+    "r": "GACUGACUCGUGAUCGGA",
+    "rate_constant": "",
+    "reaction": "RNA ligation",
+    "reported_in": "s",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": ""
+  },
+  "1491": {
+    "buffer": "50 mM HEPES pH 7.5, 2 mM KCl, 150 mM NaCl, MgCl2, 20 mM MnCl2",
+    "e": "GCGGGCCCCAATTCATTGGCTTAACTACGAGGACGTCCAG",
+    "fg1s": [
+      "3 '- OH"
+    ],
+    "fg2s": [
+      "5'-adenylated RNA"
+    ],
+    "kinetics": "y",
+    "l": "GGCGAACUCUUCGA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "C P M Scheitl",
+    "main_article_last_autor": "C Höbartner",
+    "main_article_mid_authors": "S Lange",
+    "main_article_pub_date": "2020",
+    "main_article_title": "New Deoxyribozymes for the Native Ligation of RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "SC8",
+    "notes": "",
+    "r": "GAGCUGAUCCUGAGAA",
+    "rate_constant": "k<sub>obs</sub> = 0.0092 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "70-80"
+  },
+  "1492": {
+    "buffer": "50 mM HEPES pH 7.5, 2 mM KCl, 150 mM NaCl, MgCl2, 20 mM MnCl2",
+    "e": "GTACGGACGTCAGTCACGAGGCAGCTGCTTTGCCAAACTG",
+    "fg1s": [
+      "3 '- OH"
+    ],
+    "fg2s": [
+      "5'-adenylated RNA"
+    ],
+    "kinetics": "y",
+    "l": "GGCGAACUCUUCGA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "C P M Scheitl",
+    "main_article_last_autor": "C Höbartner",
+    "main_article_mid_authors": "S Lange",
+    "main_article_pub_date": "2020",
+    "main_article_title": "New Deoxyribozymes for the Native Ligation of RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "SC9",
+    "notes": "",
+    "r": "GAGCUGAUCCUGAGAA",
+    "rate_constant": "k<sub>obs</sub> = 0.0219 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "80-90"
+  },
+  "1493": {
+    "buffer": "50 mM HEPES pH 7.5, 2 mM KCl, 150 mM NaCl, MgCl2, 20 mM MnCl2",
+    "e": "ACCGTCACAAAAGACTGTAGTTAATACCACTGCAGGTCGT",
+    "fg1s": [
+      "3 '- OH"
+    ],
+    "fg2s": [
+      "5'-adenylated RNA"
+    ],
+    "kinetics": "y",
+    "l": "GGCGAACUCUUCGA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "C P M Scheitl",
+    "main_article_last_autor": "C Höbartner",
+    "main_article_mid_authors": "S Lange",
+    "main_article_pub_date": "2020",
+    "main_article_title": "New Deoxyribozymes for the Native Ligation of RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "SC26",
+    "notes": "",
+    "r": "GAGCUGAUCCUGAGAA",
+    "rate_constant": "k<sub>obs</sub> = 0.0093 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "70"
+  },
+  "1494": {
+    "buffer": "50 mM HEPES pH 7.5, 2 mM KCl, 150 mM NaCl, MgCl2, 20 mM MnCl2",
+    "e": "GCACAGGGGTATAATTGCCTCGTACAACTTTATGTCCGAA",
+    "fg1s": [
+      "3 '- OH"
+    ],
+    "fg2s": [
+      "5'-adenylated RNA"
+    ],
+    "kinetics": "y",
+    "l": "GGCGAACUCUUCGA",
+    "length": 40,
+    "linkage": "3',5'",
+    "main_article_first_author": "C P M Scheitl",
+    "main_article_last_autor": "C Höbartner",
+    "main_article_mid_authors": "S Lange",
+    "main_article_pub_date": "2020",
+    "main_article_title": "New Deoxyribozymes for the Native Ligation of RNA.",
+    "metal_ions": [
+      "Mn2+"
+    ],
+    "n": "40",
+    "name": "SC34",
+    "notes": "",
+    "r": "GAGCUGAUCCUGAGAA",
+    "rate_constant": "k<sub>obs</sub> = 0.0193 min<sup>-1</sup>",
+    "reaction": "RNA ligation",
+    "reported_in": "m",
+    "rp": "native RNA",
+    "s": "",
+    "structures": [],
+    "x": "",
+    "yield": "80-90"
+  }
+}

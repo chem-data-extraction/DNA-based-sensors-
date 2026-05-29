@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Matomo Image Tracker-->
+<img referrerpolicy="no-referrer-when-downgrade" src="https://anl.genesilico.pl/matomo.php?idsite=20&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNAmoreDB - A Database of Deoxyribozymes</title>
+   <meta name="author" content="Almudena Ponce Salvatierra">
+   <meta name="description" content="">
+   <meta name="keywords" content="deoxyribozymes, DNA, database">
+   <link rel="shortcut icon" href="/DNAmoreDB/static/img/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="/DNAmoreDB/static/img/favicon.ico" type="image/x-icon">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/DNAmoreDB/static/css/almudna.css" />
+
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/76f8c79c88.js" crossorigin="anonymous"></script>
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+<div class="widecontainer">
+
+<div id="left">
+  <a href="/DNAmoreDB/" ><img class="img-fluid" src="/DNAmoreDB/static/img/logo2.png" height="100px" style="margin:15px"></a>
+</div>
+
+<div id="right">
+  <div class="toplogo">
+    <a href="/DNAmoreDB/" ><img class="img-fluid" src="/DNAmoreDB/static/img/logo.png" width="300px"></a>
+    <div class="floating_div">
+    <div class="search_bar_div">
+      <form form id="searchform" action="/DNAmoreDB/searchsimple" method="get" accept-charset="utf-8">
+      <input id="search_bar_home" name="q" type="text" name="search" placeholder="Keyword Search" value="">
+      <button class="btn btn-default submit" id="submit" type="submit" data-toggle="popover" title="Searching...">
+        <span class="glyphicon glyphicon-search"></span>
+              </button>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+  <div class="topnav" id="myTopnav">
+    <a class="menu_element " href="/DNAmoreDB/" >Home</a>
+    <a class=" menu_element " href="/DNAmoreDB/dnazymes">DNAzymes</a>
+    <a class=" menu_element " href="/DNAmoreDB/publications">Publications</a>
+    <a class=" menu_element " href="/DNAmoreDB/reactions">Reactions</a>
+    <a class=" menu_element " href="/DNAmoreDB/structures">Structures</a>
+    <a class=" menu_element " href="/DNAmoreDB/posters">Poster</a>
+    <a class=" menu_element " href="/DNAmoreDB/about">About</a>
+    <a class=" menu_element " href="/DNAmoreDB/help">Help</a>
+    <a class=" menu_element active" href="/DNAmoreDB/api">API</a>
+    <a class=" menu_element " href="/DNAmoreDB/submit/">Submit</a>
+    <a class=" menu_element " href="/DNAmoreDB/searchadvance">Advanced Search</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+</div>
+</div>
+
+<div class="container">
+  <div id="mobile-menu" style="display:none">
+  <h4><b>Menu:</b></h4>
+  <ul class="list-group">
+
+  <li class="list-group-item"><a class="menu_element " href="/DNAmoreDB/" >Home</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/dnazymes">DNAzymes</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/publications">Publications</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/reactions">Reactions</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/structures">Structures</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/posters">Poster</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/about">About</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/help">Help</a></li>
+  <li class="list-group-item"><a class=" menu_element active" href="/DNAmoreDB/api">API</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/submit/">Submit</a></li>
+  <li class="list-group-item"><a class=" menu_element " href="/DNAmoreDB/searchadvance">Advanced Search</a></li>
+  </ul>
+</div>
+</div>
+<!--
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+-->
+  <script>
+  function myFunction() {
+    var x = document.getElementById("mobile-menu");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+<!--
+-->
+
+ <div  style="margin: 30px;">
+   
+
+ </div>
+
+
+ <div  style="padding-top: 0px; padding-bottom: 50px; padding-left: 30px; padding-right: 30px;">
+
+
+
+<h2>API <small> application program interface</small></h2>
+<hr>
+<h3>Introduction</h3>
+<p>This set of APIs was made to let users extract the information they search in a practical way.</p>
+<p>By browsing specific URLs the user or a machine will be able to filter and extract information in two formats (JSON and CSV). JSON is the standard format while CSV can be accessed by adding<pre>&format=csv</pre> at the end of the requests.</p>
+<p>If format=csv is specified the API will return a downloadable CSV file</p>
+
+<h3>ROOT</h3>
+<p><pre>/DNAmoreDB/api</pre></p>
+<p><a href="/DNAmoreDB/api">/DNAmoreDB/api</a> is the page you are reading now.</p>
+<p>All the other sections follow this format: api/name_DNAmoreDB_section</p>
+
+  <h3>DNAzyme</h3>
+  <pre>/DNAmoreDB/api/dnazyme?id=</pre>
+  <p><a href="/DNAmoreDB/api/dnazyme?id=255">/DNAmoreDB/api/dnazyme?id=255</a> returns the data corresponding to a single dnazyme, in this example, that with ID = 255.</p>
+  <p>This section can be filtered by adding the following GET parameters after the URL after the "?" symbol</p>
+  <table class="table table-border">
+    <tr>
+    <th>parameter</th>
+    <th>description</th>
+    <th>example</th>
+    </tr>
+    <tr>
+      <td>&format=</td>
+      <td>Select the output format [json,csv]</td>
+      <td><a href="/DNAmoreDB/api/dnazyme?id=255&format=csv">/DNAmoreDB/api/dnazyme?id=255&format=csv</a></td>
+    </tr>
+  </table>
+
+
+  <h3>DNAzymes</h3>
+  <pre>/DNAmoreDB/api/dnazymes</pre>
+  <p><a href="/DNAmoreDB/api/dnazymes">/DNAmoreDB/api/dnazymes</a> returns the data of all the dnazymes stored in DNAmoreDB.</p>
+  <p>This section can be filtered by adding the following GET parameters after the URL after the "?" symbol</p>
+  <table class="table table-border">
+    <tr>
+    <th>parameter</th>
+    <th>description</th>
+    <th>example</th>
+    </tr>
+    <tr>
+      <td>&reaction=</td>
+      <td>filters by reaction name</td>
+      <td><a href="/DNAmoreDB/api/dnazymes?reaction=RNA+ligation">/DNAmoreDB/api/dnazymes?reaction=RNA+ligation</a></td>
+    </tr>
+    <tr>
+      <td>&metal_ion=</td>
+      <td>filters by metal ion</td>
+      <td><a href="/DNAmoreDB/api/dnazymes?metal_ion=mg2">/DNAmoreDB/api/dnazymes?metal_ion=mg2</a></td>
+    </tr>
+    <tr>
+      <td>&format=</td>
+      <td>Select the output format [json,csv]</td>
+      <td><a href="/DNAmoreDB/api/dnazymes?format=csv">/DNAmoreDB/api/dnazymes?format=csv</a></td>
+    </tr>
+
+  </table>
+
+
+
+
+
+</div>
+    </hr>
+ <div  style="padding-top: 60px; padding-bottom: 50px; padding-left: 30px; padding-right: 30px;">
+
+      Copyright © Genesilico - All rights reserved </br>
+      This website is free, open to all users and there is no login required.</br>
+      If you have any advice or suggestions for corrections or improvements, please contact:
+      <a href="mail:aponces@genesilico.pl">Almudena Ponce Salvatierra</a>
+ </div>
+
+
+ 
+ 
+
+</body>
+</html>
