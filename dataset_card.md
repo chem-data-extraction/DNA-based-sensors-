@@ -1,61 +1,189 @@
-# Dataset card — Aptamer–protein binding dataset
+# Dataset card - DNA-based nucleic-acid sensor records
 
 ## Dataset title
 
-Aptamer–protein binding dataset (course template v0.1.0)
+DNA-based sensors for nucleic acid detection dataset
 
 ## Dataset summary
 
-Tabular collection of experimentally reported aptamer–protein binding measurements, including sequences, targets, affinity values, assay metadata, and provenance fields. This repository is a **template** with illustrative example rows.
+This dataset is a tabular collection of experimentally reported records for DNAzyme-based and DNA-based nucleic-acid sensing systems
+
+The dataset includes:
+
+- sensor-performance records extracted from scientific papers;
+- LOD values for synthetic DNA/RNA model targets, bacterial RNA / 16S rRNA-related targets, and viral RNA model targets;
+- sensitivity-improvement records and other related performance measurements;
+- selected DNAmoreDB metadata records for relevant DNAzyme entries;
+- sensor and target sequences curated from main articles and supplementary materials.
+
+The main publication-ready file is: `data/processed/dataset.csv`
+
+An additional LOD-only analysis subset is provided as: `data/processed/dataset_lod_only.csv`
 
 ## Scientific task
 
-Support comparison of reported binding affinities (e.g. Kd) and assay conditions across literature and curated database sources for aptamer–protein pairs.
+Collect experimentally reported quantitative measurements and structured metadata for DNAzyme-based nucleic-acid sensors
 
 ## Record unit
 
-One row = one experimentally reported binding measurement for one aptamer–target pair from one source.
+One row = one experimentally reported quantitative measurement for one DNAzyme-based nucleic-acid sensing system or DNAzyme catalytic component under one defined assay condition from one specific source
+
+Most records are quantitative sensor-performance measurements, such as:
+
+- LOD;
+- detectable concentration;
+- visual detection amount;
+- sensitivity improvement factor;
+- sensitivity difference factor.
+
+Two web-derived records are `metadata_only` DNAmoreDB records. They are retained as structured database metadata and source-discovery records, not as direct LOD measurements.
 
 ## Data sources
 
-Defined in `specs/source_map.json`: journal PDFs, supplementary tables, aptamer databases, metadata aggregators, GitHub releases, and optional ML dataset exports (with license review).
+Defined in `specs/source_map.json`: journal PDFs, supplementary tables, aptamer databases, metadata aggregators, GitHub releases, and optional ML dataset exports (with license review)
+
+Data sources are defined in `specs/source_map.json`.
+
+The current dataset uses:
+
+- scientific papers;
+- supplementary materials;
+- DNAmoreDB web/database pages;
+- bibliographic aggregators for metadata verification.
+
+Main paper-derived sources include:
+
+- Gerasimova et al. 2013 — deoxyribozyme cascade for visual detection of bacterial RNA;
+- Cox et al. 2016 — multifunctional molecular DNA machine for RNA detection;
+- Solyanikova et al. 2025 — multicomponent DNA nanomachines for amplification-free viral RNA detection.
+
+Web-derived source:
+
+- DNAmoreDB — selected DNAzyme entries, currently including `10-23` and `RFD-EC1`.
+
+Supplementary files were used to curate sequence information, including sensor components, target sequences, F-sub strands, Hook strands, tile strands, Dza/Dzb components, and MB-DNS / DNM oligonucleotides
 
 ## Data extraction procedure
 
-1. PDF: `scripts/extract_pdf.py` guided by `specs/pdf_extraction_manifest.json`
-2. Web: `scripts/extract_web.py` guided by `specs/web_extraction_manifest.json`
-3. Logs: `data/extracted/extraction_log.jsonl`
+PDF extraction is documented in Practice 3. The script `scripts/extract_pdf.py` produces automatic PDF candidates, while the final verified PDF records are stored in: `data/extracted/pdf_extracted_records.csv`. The manually verified PDF dataset includes values curated from main articles, figures, tables, captions, and supplementary materials.
+
+Web extraction is documented in Practice 4.
+
+The web extraction workflow uses:
+
+- `scripts/extract_web_candidates.py`
+- `scripts/select_web_records.py`
+- `scripts/extract_web.py`
+
+The web extraction output files are:
+
+- `data/extracted/web_extracted_candidates.csv`
+- `data/extracted/web_extracted_records.csv`
 
 ## Data cleaning and normalization
 
-`scripts/build_dataset.py` merges extracts; `scripts/clean_dataset.py` normalizes sequences, units (to nM), missing values, and deduplicates per `specs/cleaning_pipeline.json`.
+The final dataset is built and cleaned with:
+
+- `scripts/build_dataset.py`
+- `scripts/clean_dataset.py`
+- `scripts/validate_project.py`
+
+The cleaning pipeline is documented in:
+
+`specs/cleaning_pipeline.json`
+
+Cleaning steps include:
+
+- merging PDF and web records;
+- mapping heterogeneous source columns into the common schema;
+- aligning columns with `specs/dataset_schema.json`;
+- normalizing missing values;
+- converting compatible concentration units to nM;
+- preserving reported units;
+- normalizing sequence strings;
+- preserving multicomponent sensor annotations;
+- removing duplicate records;
+- exporting the final dataset.
+
+Reported units are preserved in:
+
+- `measurement_value`
+- `measurement_unit`
+
+Comparable concentration values are stored in:
+
+- `normalized_value_nM`
+- `lod_nM`
+
+LOD values reported in `ng/uL` are preserved as reported and are not converted to nM, because conversion would require assumptions about total RNA composition and molecular weight.
+
 
 ## Dataset schema
 
-Field definitions, types, and examples: `specs/dataset_schema.json`. Final columns in `data/processed/dataset.csv`.
+## Dataset schema
+
+Field definitions, data types, and descriptions are stored in: `specs/dataset_schema.json`
+
+The final columns in `data/processed/dataset.csv` follow this schema exactly.
 
 ## Validation
 
-Rules in `specs/validation_rules.json`; checks via `scripts/validate_project.py` and `tests/test_required_artifacts.py`.
+Validation rules are defined in: `specs/validation_rules.json`
+
+Validation is run with: `python scripts/validate_project.py`
+
+The validator checks:
+
+- required files exist;
+- JSON files are parseable;
+- `data/processed/dataset.csv` exists;
+- dataset columns match `specs/dataset_schema.json`;
+- `record_id` values are non-empty and unique;
+- `source_id` values are non-empty;
+- `measurement_value` values are numeric or blank;
+- `extraction_confidence` values are allowed.
 
 ## Known limitations
 
-- Example DOIs and URLs are placeholders.
-- Template rows are not verified against live sources.
-- Some sources may be paywalled or not redistributable—confirm LICENSE before publication.
+- The dataset is small and focused on selected DNAzyme/DNM-related nucleic-acid sensing papers
+- Not every DNA-based sensor architecture is represented
+- DNAmoreDB records are metadata records, not direct LOD records
+- LOD values reported in `ng/uL` are not converted to nM
+- Some values were manually curated from figures, captions, or supplementary materials
+- Some records describe synthetic DNA/RNA model targets rather than clinical samples
+- Bacterial RNA / 16S rRNA-related records may involve total RNA or bacterial-marker proxy targets
+- Multicomponent sensor sequences are stored as component-labeled strings rather than single continuous sequences
+- The dataset is intended for structured comparison and educational data extraction, not for clinical validation
 
 ## Recommended use
 
-Teaching structured scientific data extraction; prototyping pipelines; benchmarking parsing workflows on aptamer binding tables.
+- comparing LOD values across DNAzyme-based and DNA nanomachine sensor architectures;
+- studying how sensor architecture relates to sensitivity;
+- practicing scientific data extraction from PDFs, supplementary files, and web databases;
+- benchmarking cleaning and validation pipelines for chemical/biological datasets;
+- source-discovery for DNAzyme-based nucleic-acid sensing systems.
+
+For direct sensitivity comparison, use: `data/processed/dataset_lod_only.csv` or filter the full dataset by: `measurement_type == "LOD"`
+
+For direct nM-based comparison, additionally require: `lod_nM` is not empty.
 
 ## Not recommended use
 
-Clinical decision-making; uncritical meta-analysis without re-verifying primary sources; commercial use without license review.
+This dataset is not recommended for:
+
+- clinical decision-making;
+- diagnostic performance claims;
+- uncritical meta-analysis without rechecking primary sources;
+- comparing `metadata_only` records with LOD records;
+- converting `ng/uL` total RNA LODs to nM without explicit assumptions;
+- commercial reuse of raw third-party source files without checking upstream licenses.
 
 ## License
 
-See `LICENSE` — replace placeholder before publication (e.g. CC-BY-4.0 or CC0-1.0 subject to upstream data licenses).
+The cleaned dataset is released under CC-BY-4.0. 
+
+See `LICENSE`.
 
 ## Citation
 
-See `CITATION.cff`. Update authors, version, and repository URL before release.
+See `CITATION.cff`
