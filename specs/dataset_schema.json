@@ -1,195 +1,192 @@
 {
   "schema_version": "0.1.0",
-  "dataset_title": "DNA-based sensors for nucleic acid detection dataset",
+  "dataset_title": "DNAzyme-based nucleic-acid sensor records",
   "fields": [
     {
       "name": "record_id",
       "type": "string",
       "required": true,
-      "description": "Stable unique identifier for one quantitative measurement record",
-      "example": "rec_000001"
+      "description": "Stable unique identifier for one extracted record."
     },
     {
       "name": "source_id",
       "type": "string",
       "required": true,
-      "description": "Identifier linking the record to an entry in specs/source_map.json",
-      "example": "paper_ateiah_dnm"
+      "description": "Identifier linking the record to specs/source_map.json."
     },
     {
-      "name": "sensor_architecture",
-      "type": "string",
-      "required": true,
-      "description": "Architecture of the DNA-based sensor",
-      "example": "X_probe"
-    },
-    {
-      "name": "dnazyme_name",
+      "name": "source_type",
       "type": "string",
       "required": false,
-      "description": "DNAzyme name as reported in the source or database",
-      "example": "10-23 DNAzyme"
-    },
-    {
-      "name": "full_sensor_sequence",
-      "type": "string",
-      "required": false,
-      "description": "Complete DNAzyme sensor sequence or construct sequence if reported",
-      "example": "ACTGCAGT"
-    },
-    {
-      "name": "target_name",
-      "type": "string",
-      "required": true,
-      "description": "Name or label of the nucleic-acid target",
-      "example": "16S RNA"
-    },
-    {
-      "name": "target_sequence",
-      "type": "string",
-      "required": true,
-      "description": "Sequence of the matched target analyte. If the source reports RNA, store U instead of T",
-      "example": "ACGATTGCAGAGTATGCATATGCA"
-    },
-    {
-      "name": "reaction_type",
-      "type": "string",
-      "required": false,
-      "description": "DNAzyme reaction",
-      "example": "RNA_cleavage"
-    },
-    {
-      "name": "detection_method",
-      "type": "string",
-      "required": true,
-      "description": "Detection method",
-      "example": "fluorescence"
-    },
-    {
-      "name": "measurement_type",
-      "type": "string",
-      "required": true,
-      "description": "Type of experimentally reported quantitative performance measurement",
-      "example": "LOD"
-    },
-    {
-      "name": "measurement_value",
-      "type": "number",
-      "required": true,
-      "description": "Numerical value of the reported measurement. For ranges, store the main value if reported and describe the range in notes",
-      "example": 5.5
-    },
-    {
-      "name": "measurement_unit",
-      "type": "string",
-      "required": false,
-      "description": "Original unit of the reported measurement",
-      "example": "nM"
-    },    
-    {
-      "name": "lod_nM",
-      "type": "number",
-      "required": false,
-      "description": "LOD converted to nM when measurement_type is LOD",
-      "example": 0.0003
-    },
-    {
-      "name": "signal_to_background_ratio",
-      "type": "number",
-      "required": false,
-      "description": "Signal-to-background ratio reported for the sensor response",
-      "example": 8.2
-    },
-    {
-      "name": "temperature_c",
-      "type": "number",
-      "required": false,
-      "description": "Assay temperature in degrees Celsius when a single temperature is reported",
-      "example": 22
-    },
-    {
-      "name": "gibbs_energy",
-      "type": "number",
-      "required": false,
-      "description": "Predicted or reported Gibbs free energy for relevant probe-target hybridization, in kcal/mol. This is optional because many experimental papers report sensor performance without ΔG",
-      "example": -12.4
-    },
-    {
-      "name": "gibbs_energy_source",
-      "type": "string",
-      "required": false,
-      "description": "Whether Gibbs energy was extracted from the source or calculated during curation",
-      "example": "calculated"
-    },
-    {
-      "name": "buffer",
-      "type": "string",
-      "required": false,
-      "description": "Buffer or assay medium composition",
-      "example": "50 mM MgCl2, 50 mM Tris-HCl"
-    },
-    {
-      "name": "pH",
-      "type": "number",
-      "required": false,
-      "description": "Assay pH",
-      "example": 7.4
-    },
-    {
-      "name": "Mg_mM",
-      "type": "number",
-      "required": false,
-      "description": "Mg2+ concentration in millimolar",
-      "example": 50
-    },
-    {
-      "name": "Na_mM",
-      "type": "number",
-      "required": false,
-      "description": "Na+ concentration in millimolar",
-      "example": 50
-    },    
-    {
-      "name": "fluorophore",
-      "type": "string",
-      "required": false,
-      "description": "Fluorophore label used in the reporter probe",
-      "example": "FAM"
-    },
-    {
-      "name": "quencher",
-      "type": "string",
-      "required": false,
-      "description": "Quencher label used in the reporter probe",
-      "example": "BHQ1"
-    },
-    {
-      "name": "method",
-      "type": "string",
-      "required": false,
-      "description": "Experimental readout or measurement method",
-      "example": "fluorescence"
+      "description": "Source category: scientific_paper, database, or web_page."
     },
     {
       "name": "source_url",
       "type": "string",
       "required": false,
-      "description": "URL or landing page for the source",
-      "example": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645261/#SD1"
+      "description": "URL for web/database source or DOI landing page when available."
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "required": true,
+      "description": "DOI, URL, or textual source reference."
     },
     {
       "name": "source_location",
       "type": "string",
       "required": false,
-      "description": "Exact location of the value in the source",
-      "example": "Table 1"
+      "description": "Page, table, figure, section, or DNAmoreDB entry page location."
+    },
+    {
+      "name": "sensor_architecture",
+      "type": "string",
+      "required": true,
+      "description": "Broad sensor architecture, e.g. DNAzyme_cascade, BiDZ, DNM, MB-DNS."
+    },
+    {
+      "name": "dnazyme_name",
+      "type": "string",
+      "required": false,
+      "description": "DNAzyme, probe, or sensor component name."
+    },
+    {
+      "name": "full_sensor_sequence",
+      "type": "string",
+      "required": false,
+      "description": "Full multicomponent sequence annotation when available, stored as component_name=sequence pairs."
+    },
+    {
+      "name": "target_name",
+      "type": "string",
+      "required": true,
+      "description": "Target, analyte, RNA/DNA fragment, or biological target description."
+    },
+    {
+      "name": "target_sequence",
+      "type": "string",
+      "required": false,
+      "description": "Target/analyte sequence or substrate description when available."
+    },
+    {
+      "name": "target_type",
+      "type": "string",
+      "required": false,
+      "description": "Broad target class such as synthetic_DNA, total_RNA, viral_RNA, bacterial_RNA_proxy."
+    },
+    {
+      "name": "reaction_type",
+      "type": "string",
+      "required": false,
+      "description": "Underlying reaction such as RNA_cleavage or peroxidase-like oxidation."
+    },
+    {
+      "name": "detection_method",
+      "type": "string",
+      "required": true,
+      "description": "Readout method: fluorescence, colorimetric, database_metadata, etc."
+    },
+    {
+      "name": "measurement_type",
+      "type": "string",
+      "required": true,
+      "description": "Measurement type such as LOD, detectable_concentration, sensitivity_improvement_factor, metadata_only."
+    },
+    {
+      "name": "measurement_value",
+      "type": "number",
+      "required": false,
+      "description": "Numeric value as reported or extracted, when applicable."
+    },
+    {
+      "name": "measurement_unit",
+      "type": "string",
+      "required": false,
+      "description": "Original measurement unit, e.g. nM, pM, ng/uL, fold."
+    },
+    {
+      "name": "normalized_value_nM",
+      "type": "number",
+      "required": false,
+      "description": "Measurement value converted to nanomolar for concentration units when possible."
+    },
+    {
+      "name": "lod_nM",
+      "type": "number",
+      "required": false,
+      "description": "LOD converted to nanomolar for LOD records when possible."
+    },
+    {
+      "name": "signal_to_background_ratio",
+      "type": "number",
+      "required": false,
+      "description": "Signal-to-background ratio if explicitly reported."
+    },
+    {
+      "name": "temperature_c",
+      "type": "number",
+      "required": false,
+      "description": "Assay temperature in degrees Celsius."
+    },
+    {
+      "name": "Gibbs_energy",
+      "type": "number",
+      "required": false,
+      "description": "Gibbs energy descriptor if available."
+    },
+    {
+      "name": "buffer",
+      "type": "string",
+      "required": false,
+      "description": "Assay buffer composition."
+    },
+    {
+      "name": "pH",
+      "type": "number",
+      "required": false,
+      "description": "Assay pH."
+    },
+    {
+      "name": "Mg_mM",
+      "type": "number",
+      "required": false,
+      "description": "Magnesium concentration in mM."
+    },
+    {
+      "name": "Na_mM",
+      "type": "number",
+      "required": false,
+      "description": "Sodium concentration in mM."
+    },
+    {
+      "name": "fluorophore",
+      "type": "string",
+      "required": false,
+      "description": "Fluorophore label if reported."
+    },
+    {
+      "name": "quencher",
+      "type": "string",
+      "required": false,
+      "description": "Quencher label if reported."
+    },
+    {
+      "name": "extraction_method",
+      "type": "string",
+      "required": false,
+      "description": "pdf_manual, pdf_table_manual, web_html_entry_page, etc."
+    },
+    {
+      "name": "extraction_confidence",
+      "type": "string",
+      "required": false,
+      "description": "high, medium, low, or unknown."
     },
     {
       "name": "notes",
       "type": "string",
       "required": false,
-      "description": "Free-text notes about extraction, ambiguity, assumptions, unit conversion, or special assay conditions.",
-      "example": "LOD measured in the presence of 500 nM mismatched rs87C analyte."
+      "description": "Manual curation notes, caveats, and provenance."
     }
   ]
 }
